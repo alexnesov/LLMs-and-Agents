@@ -1,4 +1,4 @@
-# The GIST of LLMs
+# A bit of theory
 
 ## Intro
 
