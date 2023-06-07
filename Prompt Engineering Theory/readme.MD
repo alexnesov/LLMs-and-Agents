@@ -3,7 +3,7 @@
 ## Intro
 
 The dog wigged it's {...} ? [pen, CPU, AI, screen, tail?]<br>
-Ok, not only you just got the intutition of what an LLM is, but you proved that your brains has one :yum:
+Ok, not only you just got the intutition of what an LLM is, but you also proved that your brain behaves like one :yum:
 
 ## Zero Shot Prompting
 
