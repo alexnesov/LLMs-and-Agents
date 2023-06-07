@@ -1,4 +1,4 @@
-# A bit of theory
+# Some bits of theory
 
 ## Intro
 
