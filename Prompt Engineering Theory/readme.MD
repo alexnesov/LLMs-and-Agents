@@ -60,4 +60,3 @@ The goal is to avoid one shot programs and introduce dynamic agents that self-ad
 
 <br>
 
-I must thank
