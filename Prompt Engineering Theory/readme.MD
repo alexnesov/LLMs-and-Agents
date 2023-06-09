@@ -22,7 +22,10 @@ We can describe zero shot prompting by describing what it lacks:
 Provide guidance: <br>
 **Ex**: I want a list of random monuments names, in this structured format => [apple, tree, banana]
 
-Zero shot prompting is therefore inefficient. The probability of "hallucinations" will increase.
+
+<br>
+
+Without these 2 points in mind, the so called "zeo shot prompt" will be inefficient. The probability of "hallucinations" will increase.
 
 <br>
 
