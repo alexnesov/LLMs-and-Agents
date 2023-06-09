@@ -5,11 +5,11 @@
 The dog wigged it's {...} ? [pen, CPU, AI, screen, tail?]<br>
 Ok, not only you just got the intutition of what an LLM is, but you also proved that your brain behaves like one :yum:
 
-## Zero Shot Prompting
+## What is an ambiguous prompt ? (Or called "one-shot prompt")
 
-We can describe zero shot prompting under two dimensions:
+We can describe zero shot prompting by describing what it lacks:
 
-1.  You don't give directions such as:
+1.  You don't give directions (in this order) such as:
 
 - Instructions (Summarize, Complete, Translate, Answer, Write)
 - Context (Length, language, question, theme)
@@ -18,16 +18,15 @@ We can describe zero shot prompting under two dimensions:
 
 2. Model is guessing at its best effort without you giving an example
 
-Zero shot prompting is therefore inefficient and too random, eventhough it the most used certainly by people generally
 
-## Few Shot Prompting
+Provide guidance: <br>
+**Ex**: I want a list of random monument names as an output, in this format => [apple, tree, banana]
 
-- Model is given a few examples of the result you want.
+Zero shot prompting is therefore inefficient. The probability of "hallucinations" will increase.
 
-Ex: I want a list of random monument names as an output, in this format => [apple, tree, banana]
 <br>
 
-Here, the model get's guidance. <br><br>
+Here, the model get's **guidance**. <br><br>
 
 # Advanced *Prompt Engineering* to implement more autonomous agents and increase the LLM's output's accuracy
 
