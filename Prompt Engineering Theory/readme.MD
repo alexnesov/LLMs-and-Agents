@@ -20,7 +20,7 @@ We can describe zero shot prompting by describing what it lacks:
 
 
 Provide guidance: <br>
-**Ex**: I want a list of random monument names as an output, in this format => [apple, tree, banana]
+**Ex**: I want a list of random monuments names, in this structured format => [apple, tree, banana]
 
 Zero shot prompting is therefore inefficient. The probability of "hallucinations" will increase.
 
