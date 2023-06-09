@@ -1,4 +1,4 @@
-# LLM-LangChain
+# LLMs and Agentes
 LLM powered applications with aournd agents
 
 ## To be covered: 
