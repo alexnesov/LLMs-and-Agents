@@ -1,4 +1,4 @@
-# LLMs and Agentes
+# LLMs and Agents
 LLM powered applications with aournd agents
 
 ## To be covered: 
