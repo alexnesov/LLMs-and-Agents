@@ -34,7 +34,6 @@ Before going further in into the topic of chunking we need a primer to the proce
 Image reference: https://medium.com/@hari4om/word-embedding-d816f643140
 
 
-
 ### Vector-based Semantic Matching for Question-Text Retrieval
 
 - Create Vector space from the text
@@ -46,3 +45,19 @@ If we want to ask a question about a large text, we can treat the question itsel
 References: 
 - https://towardsdatascience.com/neural-network-embeddings-explained-4d028e6f0526
 - https://developers.google.com/machine-learning/crash-course/embeddings/video-lecture
+
+
+## LancChain's VectorDBQA: Question Answering using Vector Database and Language Model
+
+VectorDBQA chain is a system designed for question answering using a vector database. It follows the following steps:
+
+1. Retrieving relevant documents from the vector database based on the input query.
+2. Obtaining the vectors representing these documents.
+3. Converting the vectors into text representations or chunks.
+4. Constructing a prompt using the text/chunks and sending it to the Language Model (LLM).
+5. Utilizing the LLM to generate an answer based on the constructed prompt.
+
+### Pinecone
+
+Pinecone is an advanced vector database and vector similarity search service provided by OpenAI.It is designed to handle high-dimensional vector data efficiently and provide fast and accurate similarity search capabilities. Pinecone allows users to store and retrieve vectors based on their similarity, making it useful for various applications such as recommendation systems, natural language processing, image search, and more.
+
