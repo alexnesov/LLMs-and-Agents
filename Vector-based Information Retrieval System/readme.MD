@@ -47,7 +47,7 @@ References:
 - https://developers.google.com/machine-learning/crash-course/embeddings/video-lecture
 
 
-## LancChain's VectorDBQA: Question Answering using Vector Database and Language Model
+## LangChain's VectorDBQA: Question Answering using Vector Database and Language Model
 
 VectorDBQA chain is a system designed for question answering using a vector database. It follows the following steps:
 
