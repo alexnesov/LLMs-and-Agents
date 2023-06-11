@@ -1,5 +1,5 @@
 # LLMs and Agents
-LLM powered applications with aournd agents
+LLM powered applications with agents
 
 ## To be covered: 
 
