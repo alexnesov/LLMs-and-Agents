@@ -31,7 +31,10 @@ if __name__ == '__main__':
 
     # https://blog.langchain.dev/retrieval/
 
-    qa = VectorDBQA.from_chain_type(llm=OpenAI(), chain_type="stuff", vectorstore = docsearch)
+    qa = VectorDBQA.from_chain_type(llm=OpenAI(), 
+                                    chain_type="stuff", 
+                                    vectorstore = docsearch,
+                                    return_source_answer=True) # return_source_answer=> What chunk made the LLM decide what whould be the anwser?
 
     query = "What are Neural Network Embeddings? Give me a 15 word anwer for a beginner"
     result = qa({"query":query})
