@@ -36,7 +36,7 @@ if __name__ == '__main__':
                                     vectorstore = docsearch,
                                     return_source_answer=True) # return_source_answer=> What chunk made the LLM decide what whould be the anwser?
 
-    query = "What are Neural Network Embeddings? Give me a 15 word anwer for a beginner"
+    query = "What are Neural Network Embeddings? Give me a 15 words anwer for a beginner"
     result = qa({"query":query})
     
     print(result)
