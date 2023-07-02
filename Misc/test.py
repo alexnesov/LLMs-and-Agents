@@ -22,7 +22,7 @@ if __name__ == '__main__':
 
     embeddings = OpenAIEmbeddings()
     vectorstore = FAISS.from_documents(docs, embeddings)
-    vectorstore.save_local("faiss_index_react")
+    vectorstore.save_local("faiss_index/faiss_index_react")
 
     new_vectorstore = FAISS.load_local("faiss_index_react", embeddings)
     qa = RetrievalQA.from_chain_type(
