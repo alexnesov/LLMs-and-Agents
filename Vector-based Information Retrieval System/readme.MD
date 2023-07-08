@@ -35,7 +35,7 @@ Image reference: https://medium.com/@hari4om/word-embedding-d816f643140
 
 <br>
 
-![meaning_similarity](meaning_similarity.png) 
+![meaning_similarity](https://github.com/alexnesov/LLMs-and-Agents/blob/main/Vector-based%20Information%20Retrieval%20System/meaning_similarity.png) 
 Image reference: https://www.youtube.com/watch?v=e2g5ya4ZFro&ab_channel=Pinecone (Supercharging Semantic Search with Pinecone and Cohere
 )
 
