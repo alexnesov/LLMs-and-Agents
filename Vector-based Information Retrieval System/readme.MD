@@ -1,5 +1,5 @@
 
-# Big Contexts and Effective Chunking: Maintaining Semantic Coherence in Text Processing
+# Large Contexts and Effective Chunking: Maintaining Semantic Coherence in Text Processing
 
 A way to circumvent the issue (think of it also as *token limit*) of a text being too big to be ingested by the language model (LLM) is through a process called 'chunking' or '**disassembling and reassembling.**'
 
