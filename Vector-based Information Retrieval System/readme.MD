@@ -3,7 +3,7 @@
 
 A way to circumvent the issue (think of it also as *token limit*) of a text being too big to be ingested by the language model (LLM) is through a process called 'chunking' or '**disassembling and reassembling.**'
 
-But this process needs to **make sense**. We don't just split the text randomly (eventhough this could make sens for some cases). <br>
+But this process needs to **make sense**. We don't just split the text randomly (eventhough this could make sens for some cases).      
 We want the chunks need to be sementically related. 
 
 ### What does 'semantically related' mean?
@@ -33,7 +33,7 @@ Before going further in into the topic of chunking we need a primer to the proce
 ![embeddings_example](https://raw.githubusercontent.com/alexnesov/LLMs-and-Agents/main/Vector-based%20Information%20Retrieval%20System/embeddings_example.webp)
 Image reference: https://medium.com/@hari4om/word-embedding-d816f643140
 
-<br>
+    
 
 ![meaning_similarity](https://raw.githubusercontent.com/alexnesov/LLMs-and-Agents/main/Vector-based%20Information%20Retrieval%20System/meaning_similarity.png) 
 Image reference: https://www.youtube.com/watch?v=e2g5ya4ZFro&ab_channel=Pinecone (Supercharging Semantic Search with Pinecone and Cohere
