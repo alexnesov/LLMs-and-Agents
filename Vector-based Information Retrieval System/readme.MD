@@ -10,7 +10,7 @@ We want the chunks need to be sementically related.
 
  It means that we don't want to simply divide the text into different parts; rather, we want to split it in a way that maintains the discursive logic and ensures that the different chunks are connected in terms of meaning."
 
-![semantically-similar](Sentences-are-semantically-similar-if-they-can-be-answered-by-the-same-responses.png)
+![semantically-similar](https://raw.githubusercontent.com/alexnesov/LLMs-and-Agents/main/Vector-based%20Information%20Retrieval%20System/Sentences-are-semantically-similar-if-they-can-be-answered-by-the-same-responses.png)
 
 Image reference: https://www.researchgate.net/figure/Sentences-are-semantically-similar-if-they-can-be-answered-by-the-same-responses_fig1_324690566
 
