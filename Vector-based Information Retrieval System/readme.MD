@@ -30,7 +30,7 @@ Before going further in into the topic of chunking we need a primer to the proce
 
 ### Embeddings illustration
 
-![embeddings_example](embeddings_example.webp)
+![embeddings_example](https://raw.githubusercontent.com/alexnesov/LLMs-and-Agents/main/Vector-based%20Information%20Retrieval%20System/embeddings_example.webp)
 Image reference: https://medium.com/@hari4om/word-embedding-d816f643140
 
 <br>
