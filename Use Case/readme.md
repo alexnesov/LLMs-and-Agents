@@ -1,6 +1,12 @@
 # Embeddings as a pre-processing tool in the context of a legal document analysis
 
+When dealing with a large text, a common initial reflex might be to chunk it into smaller parts and process it iteratively. However, this approach is inefficient and, more importantly, it breaks the semantic integrity of the whole text, which can lead to mistakes.
 
+
+![naive_approach](https://raw.githubusercontent.com/alexnesov/LLMs-and-Agents/main/Use%20Case/Diagrams%20%26%20IMGs/chunk.png)    
+
+
+A better approach is to use embeddings for handling large texts.
 
 ## Embeddings to avoid a wrong association of dates in a large text
 
