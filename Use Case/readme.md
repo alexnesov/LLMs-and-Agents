@@ -19,7 +19,7 @@ Above all, the solution to this problem (using Embeddings and a Vector Database)
 
 When dealing with a large text like this one, a common initial reflex might be to chunk it into smaller parts and process it iteratively. However, this approach is inefficient and, more importantly, it breaks the **semantic integrity** of the whole text, which can lead to mistakes (which it did).
 
-Here is the header, present on every page:
+Here is the header, present on every page:    
 ![Date](https://raw.githubusercontent.com/alexnesov/LLMs-and-Agents/main/Use%20Case/Diagrams%20%26%20IMGs/date.png)
 
 
