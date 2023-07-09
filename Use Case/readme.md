@@ -1,7 +1,7 @@
-# Embeddings as a pre-processing tool in the context of a legal document analysis
+# Embeddings as a pre-processing tool to enhance information extraction accuracy in the context of a legal document analysis
 
 
-## What did we want to do initially?
+## What did we want initially?
 
 We wanted to extract some information from the following legal document: [Software Transfer Agreement](https://github.com/alexnesov/LLMs-and-Agents/blob/main/Use%20Case/Texts/Software%20Transfer%20Agreement.pdf)  
 This document is publically available on the SEC website.
@@ -9,16 +9,21 @@ This document is publically available on the SEC website.
 We encountered some issues with the signature Date extraction. We are going to focus precisely on this issue as it is general enough to be understood across all domains and could arise in every industry. And from a technical point of view, it is not trivial at all.
 Above all, the solution to this problem (using Embeddings and a Vector Database) is a total breakthrough in the way one can approach information extraction.
 
-Here is the issue: 
+**Here is the issue:** 
 
 - There was a date on each page in the header. This date is not the signature date; it is the date at which the document was downloaded.
 - Of course, we don't know a priori on which page we'll find the signature date.
 - The document is too large (large *context*) to be ingested as it is by the LLM
 - We started with a *naive* approach to see how the LLM would handle our case
+- **Issue:** the LLM "thought" that the signature date was the date in the header, for the pages where the signature date was not explicitely stated, as a whole sentence (for example: "*this document was signed on the...*")
 
 When dealing with a large text like this one, a common initial reflex might be to chunk it into smaller parts and process it iteratively. However, this approach is inefficient and, more importantly, it breaks the **semantic integrity** of the whole text, which can lead to mistakes (which it did).
 
+Here is the header, present on every page:
+![Date](https://raw.githubusercontent.com/alexnesov/LLMs-and-Agents/main/Use%20Case/Diagrams%20%26%20IMGs/date.png)
 
+
+Here is a simplified diagram illustring the "naive" approach:
 ![naive_approach](https://raw.githubusercontent.com/alexnesov/LLMs-and-Agents/main/Use%20Case/Diagrams%20%26%20IMGs/chunk.png)    
 
 
