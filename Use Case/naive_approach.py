@@ -5,13 +5,12 @@ Chunking and trying to find the signature date a the document that has headers w
 import tiktoken
 import os
 import math
-import chardet
 import openai
-from typing import List
 import traceback
 from typing import Callable
 from datetime import datetime
 
+from utils.file_mgmt import read_text_file, get_txt_files, open_text_file, create_folder_if_not_exists
 
 SAVE_LOCATION = "Output" # Where the chunkified text will be saved
 LARGE_TXT_PTH = "Texts/Software Transfer Agreement.txt" # raw large text path
@@ -27,39 +26,6 @@ def get_open_ai_response(message: str) -> str:
     )
 
     return response
-
-
-def create_folder_if_not_exists(path: str) -> None:
-    """
-    Check if a folder exists at the given path. If the folder doesn't exist, create it.
-
-    Args:
-        path (str): The path to the folder.
-
-    """
-    if not os.path.exists(path):
-        os.makedirs(path)
-        print(f"Created folder: {path}")
-    else:
-        print(f"Folder already exists: {path}")
-
-
-
-def open_text_file(file_path: str) -> str:
-    """
-    Read the contents of a text file.
-
-    Args:
-        file_path (str): The path to the text file.
-
-    Returns:
-        str: The contents of the text file.
-    """
-    with open(file_path, 'rb') as file:
-        raw_contents = file.read()
-        detected_encoding = chardet.detect(raw_contents)['encoding']
-    file_contents = raw_contents.decode(detected_encoding)
-    return file_contents
 
 
 def split_and_save_text(text: str,
@@ -127,27 +93,6 @@ def num_tokens_from_string(plain_txt: str, encoding_name: str) -> int:
     return real_token_count
 
 
-def get_txt_files(folder_path: str) -> List[str]:
-    """
-    Retrieve all .txt files in the specified folder.
-
-    Args:
-        folder_path (str): The path to the folder.
-
-    Returns:
-        List[str]: A list of file names with the .txt extension.
-
-    Raises:
-        ValueError: If the folder_path is not a valid directory.
-
-    """
-    if not os.path.isdir(folder_path):
-        raise ValueError(f"{folder_path} is not a valid directory.")
-
-    txt_files = [file for file in os.listdir(folder_path) if file.endswith(".txt")]
-    return txt_files
-
-
 def find_number_chunks(real_token_count: str, max_token: int) -> int:
     """
     Find number of text file the initial plain_txt needs to be split into
@@ -186,6 +131,7 @@ def exception_handler(func: Callable) -> Callable:
     return wrapper
 
 
+
 @exception_handler
 def chunkify():
 
@@ -200,7 +146,15 @@ def chunkify():
 
 
 if __name__ == '__main__':
-    chunkify()
+    # chunkify()
 
     message = "What kind of legal document is this? Who are the signatories? \
     What is the signature date of this legal document?"
+
+    files = get_txt_files(SAVE_LOCATION)
+
+    print(files)
+
+    for f in files:
+        txt = read_text_file(f)
+        print(txt)
