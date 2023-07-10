@@ -1,6 +1,0 @@
-Traceback (most recent call last):
-  File "/home/nesov/Programmation/LLM-LangChain/Use Case/naive_approach.py", line 177, in wrapper
-    return func(*args, **kwargs)
-  File "/home/nesov/Programmation/LLM-LangChain/Use Case/naive_approach.py", line 194, in main
-    n_parts = find_number_chunks(token_count)
-TypeError: find_number_chunks() missing 1 required positional argument: 'max_token'
