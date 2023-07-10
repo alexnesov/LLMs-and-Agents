@@ -1,0 +1,177 @@
+matically .
+ 
+9.11 Entire Agreement . This Agreement (including the Exhibits hereto) sets forth the entire understanding of the Parties hereto relating to the subject matter hereof and supersedes all prior
+agreements and understandings between the Parties hereto relating to the subject matter hereof.
+ 
+9.12 Amendments . This Agreement may not be amended, modified, altered or supplemented other than by means of a written instrument duly executed and delivered on behalf of Avatech
+and Autodesk.
+ 
+9.13 Counterparts . This Agreement may be executed in counterparts, which, when taken together , shall constitute one agreement.
+ 
+ 5/12/23, 5:36 PM Software Transfer Agr eement
+https://www .sec.gov/Ar chives/edgar/data/852437/000119312505030601/de x1032.htm 9/16IN WITNESS WHEREOF , the Parties, by their duly authorized representatives, have executed this Agreement as of the Ef fective Date.
+ 
+Avatech, Inc.  AUT ODESK, INC.
+By:
+  /s/ Christopher D. Olander
+ By:
+ /s/ Carl Bass
+Name:   Christopher D. Olander  Name:  Carl Bass
+Title:   Executive Vice President  Title:  COO
+ 
+ 5/12/23, 5:36 PM Software Transfer Agr eement
+https://www .sec.gov/Ar chives/edgar/data/852437/000119312505030601/de x1032.htm 10/16EXHIBIT  A
+ 
+Transferred Software and Delivery
+ 
+TRANSFERRED SOFTW ARE:  is known as Proof Positive software, a set of applications for checking conformance of CAD models against defined standards. This includes:
+ 
+  •  All Software code, documentation and specifications related to the Proof Positive for Inventor application
+ 
+  •  All Software code, documentation and specifications related to the Proof Positive Reports application
+ 
+  •  All Software code, documentation and specifications related to the Proof Positive for Solidworks prototype ef fort.
+ 
+  •  All rights and title to the above works
+ 
+  •  All marketing materials related to the foregoing
+ 
+The components of Proof Positive for Inventor are further described as:
+ 
+  •  Proof Positive Configurator , an application for configuring the CAD standards that will be enforced.
+ 
+  •  Proof Positive, an application for Inventor users to test their models against the CAD Standards
+ 
+  •  Proof Positive Results Browser , an application for users to review the results of testing.
+ 
+  •  Proof Positive Batch, an application for an administrator to check conformance of a lar ge number of models in a batch environment.
+ 
+  •  Proof Positive Reports, an application for a manager to review charts and reports of the aggregate results in a dashboard-style format.
+ 
+The Software is more fully described in Exhibit B (Specifications).
+ 
+DELIVER Y: On the Ef fective Date, Avatech shall make the Transferred Software and any related documentation or other Transferred Software available at an agreed upon secure Web site for FTP
+(File Transfer Protocol) download to Autodesk’ s Portland, Oregon, facility .
+ 
+ 5/12/23, 5:36 PM Software Transfer Agr eement
+https://www .sec.gov/Ar chives/edgar/data/852437/000119312505030601/de x1032.htm 11/16EXHIBIT  B
+ 
+Specifications
+ 
+SPECIFICA TIONS: Specifications for the Transferred Software are set forth in Attachment 1 to Exhibit B
+ 
+ 5/12/23, 5:36 PM Software Transfer Agr eement
+https://www .sec.gov/Ar chives/edgar/data/852437/000119312505030601/de x1032.htm 12/16EXHIBIT  C
+ 
+Registered Intellectual Property Rights
+ 
+PATENTS: NA
+ 
+COPYRIGHTS: NA
+ 
+OTHER:
+ Trademarks:
+ a. Design plus words, letters, and/or numbers – PT O Registration No. 2894716
+ 
+b. Typed Drawing – PT O Registration No. 2839975
+ 
+ 5/12/23, 5:36 PM Software Transfer Agr eement
+https://www .sec.gov/Ar chives/edgar/data/852437/000119312505030601/de x1032.htm 13/16EXHIBIT  D
+ 
+Affirmation for Software Product Purchase by Electronic Transfer
+ 
+The undersigned hereby af firm the following to be true:
+ On the 26th day of February 2005, the following software products were delivered to Autodesk, Inc. (“Autodesk”) at Portland, Oregon, via electronic transfer:
+ a. Proof Positive Software as more fully described in the Software Transfer of Agreement between
+ 
+Autodesk and Avatech dated 26 January 2005.
+ 
+Electr onic Transmission via Remote Telecommunication delivery .
+ The software products were transferred to Autodesk by telecommunications or via Internet download to Autodesk’ s computer .
+ 
+Autodesk warrants that, at no time during or after installation of this software product(s) did any employee of Autodesk come into possession of any of the computer media utilized during
+installation.
+ 
+Autodesk warrants that Autodesk has neither retained nor has any access to “back-up” or “just in case” copies of the installed software.
+ 
+No escrow or other holding of a master copy of the purchased software exists.
+ 
+Affirmed this 26th day of January , 2005.
+ 
+ 
+  
+  
+(Autodesk employee)     (Avatech employee or authorized representative)
+ 
+All parties: Please r etain a copy of this document for  your  files.
+ 
+ 5/12/23, 5:36 PM Software Transfer Agr eement
+https://www .sec.gov/Ar chives/edgar/data/852437/000119312505030601/de x1032.htm 14/16EXHIBIT  E
+ 
+Assignment of Copyright
+ 
+For good and valuable consideration, the receipt of which is hereby acknowledged, AVATECH SOLUTIONS, INC., a Delaware corporation with of fices at 10715 Red Run Blvd., Suite 101,
+Owings Mills, Maryland 21 117 USA  (hereafter referred to as “A vatech”), hereby grants and assigns to Autodesk, Inc., located at 1 11 Mc Innis Parkway , San Rafael, California 94903 (hereinafter
+referred to as “Autodesk”) all right, title and interest whatsoever , throughout the world, in and under the copyright on the work entitled Proof Positive to have and to hold the same, unto Autodesk,
+its successors and assigns, for the full duration of all such rights, and any renewals and extensions thereof.
+ 
+This assignment is made pursuant to, and is subject to all of the terms of the Software Transfer Agreement, between Avatech and Autodesk, dated as of 26 January , 2005.
+ 
+IN WITNESS THEREOF , I have hereunto set hand and seal this
+ 
+_______________
+          Date
+ 
+ 
+ 
+(Signature)
+ 
+ 
+NAME (T ype or Print)
+ 
+ 
+TITLE
+ 
+ 
+NAME OF ASSIGNOR
+ 
+State of
+S.S.
+County of
+ 
+Before me this      day of              , 2005 personally appeared:                       to me known to be the person who is described in and who executed the foregoing assignment instrument and
+acknowledged to me that he/she executed the same his/her own free will for the purpose therein expressed.
+ 
+ 
+        
+Notary Public or Consular         
+Officer of the United States Of America
+  Expires
+  
+ 
+ 5/12/23, 5:36 PM Software Transfer Agr eement
+https://www .sec.gov/Ar chives/edgar/data/852437/000119312505030601/de x1032.htm 15/16EXHIBIT  F
+ 
+Third Party Software
+ 
+THIRD P ARTY SOFTW ARE:
+ RogueW ave Sour cePr o vers 4.0 (DLL  type)  Use: provided cross-platform C++ STL  and utilities (has been removed in upcoming vers of PP
+ Macr ovision FLEXlm vers 7.2 (DLL  type)  Use: Provides software license management
+ Softwar e FX Chart FX vers 98 (OCX type)  Use: Charting control for PP  reports
+ IBM XML4J vers 1.1.9  (JAR type)  Use: Open source XML  parser
+ Micr ostar  Aelfr ed vers 1.2 (JAR type)  Use: Public domain XML  parser
+ Apache Xer ces vers 1.4.4 (JAR type)  Use DOM-style XML  parser (provided as a
+sample; not directly used by the code)
+ Apache Xalan vers 1.4.4 (JAR type)  XSL T transform (provided as a sample; not directly used by the code)
+ Wintertr ee Softwar e - Sentry Spelling Checker  Engine - DLL
+Provides spell checking capabilities to the “Drawing Spell Check” standard (disabled).
+ fCoder  Softwar e - 2GIF  - EXE
+Conversion of thumbnail images to GIF for display .
+ 
+ 5/12/23, 5:36 PM Software Transfer Agr eement
+https://www .sec.gov/Ar chives/edgar/data/852437/000119312505030601/de x1032.htm 16/16EXHIBIT  G
+ 
+Prior Grantees
+ 
+PRIOR GRANTEES:  None.
+ 

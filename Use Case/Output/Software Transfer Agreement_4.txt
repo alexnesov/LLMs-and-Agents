@@ -1,0 +1,81 @@
+any third party’ s
+Intellectual Property Rights, or if Autodesk reasonably believes that such a claim may occur , Autodesk shall notify Avatech. In the event of the foregoing or if Avatech reasonably believes that such
+a claim may occur , Avatech shall, with Autodesk’ s written consent, either: (i) procure for Autodesk the right to continue to exercise the rights to such Transferred Software granted to Autodesk under
+this Agreement; or (ii) provide Autodesk with alternative non-infringing technology with substantially equivalent functionality .
+ 
+7.4 Limitations . Avatech shall have no liability hereunder , with respect to any claim or damages to the extent arising from or relating to: (i) any modification made to the Transferred
+Software by a party other than Avatech, if such infringement would not have occurred but for such modification; or5/12/23, 5:36 PM Software Transfer Agr eement
+https://www .sec.gov/Ar chives/edgar/data/852437/000119312505030601/de x1032.htm 7/16(ii) any combination of the Transferred Software by Avatech hereunder with Software, hardware or other technology or materials supplied by anyone other than Avatech, if such infringement or
+misappropriation would not have occurred but for such combination.
+ 
+ARTICLE VIII
+LIMIT ATIONS OF LIABILITY
+ 
+IN NO EVENT  WILL  EITHER P ARTY BE LIABLE FOR ANY  SPECIAL, INCIDENT AL, EXEMPLAR Y, OR CONSEQUENTIAL  DAMAGES, WHETHER BASED ON BREACH OF
+CONTRACT , TORT (INCLUDING NEGLIGENCE), OR OTHER WISE, REGARDLESS OF WHETHER SUCH DAMAGE WAS FORESEEABLE AND WHETHER OR NOT  SUCH HAS
+BEEN ADVISED OF THE POSSIBILITY  OF SUCH DAMAGE; PROVIDED HOWEVER THA T THE FOREGOING LIMIT ATIONS WILL  NOT  APPL Y TO AVATECH’S OBLIGA TIONS
+UNDER ARTICLES V AND VII. LIABILITY  FOR OBLIGA TIONS SET  FOR TH IN ARTICLE VII SHALL  BE LIMITED TO THE PURCHASE PRICE.
+ 
+ARTICLE IX
+GENERAL
+ 
+9.1 Expenses . Except as expressly provided herein, each Party shall be solely responsible for its own costs and expenses (including its attorneys’  fees and accountants’  fees): (i) incurred in
+negotiating and consummating the transactions contemplated hereby; and (ii) for maintaining and perfecting the rights granted to such Party hereunder , including costs for recordation of documents,
+registration of rights and payment of government fees incurred after the Ef fective Date.
+ 
+9.2 No Agency . Each Party shall in all matters relating to this Agreement act as an independent contractor . Neither Party shall have authority , nor shall either Party represent that it has any
+authority , to assume or create any obligation, express or implied, on behalf of the other , or to represent the other Party as agent or employee or in any other capacity . Neither execution nor
+performance of this Agreement shall be construed to have established any agency , joint venture, or partnership.
+ 
+9.3 Attorneys’  Fees . If any legal action or other legal proceeding relating to this Agreement or the enforcement of any provision of this Agreement is brought against any Party to this
+Agreement, the prevailing Party shall be entitled to recover reasonable attorneys’  fees, costs, and disbursements (in addition to any other relief to which the prevailing Party may be entitled).
+ 
+9.4 Notices . Any notice or other communication required or permitted to be delivered to any Party under this Agreement must be in writing and shall be deemed properly delivered, given
+and received when delivered (by hand, by registered mail, by courier or express delivery service or by facsimile) to the address or facsimile telephone number set forth beneath the name of such
+Party below (or to such other address or facsimile telephone number as such Party may have specified in a written notice given to the other Party):
+ 
+if to Autodesk:   Autodesk, Inc.
+   111 McInnis Parkway
+   San Rafael, California 94903
+   Attention: General Counsel
+   Telephone: (415) 507-5000
+   Facsimile No.: (405) 507-6126
+with a copy to:   Autodesk, Inc.
+   7995 SW  Mohawk
+   Tualatin, Oregon 97062
+   Attn: Vice President, MSD
+   Telephone: (503) 692-4424
+   Facsimile No.: (503) 692-16305/12/23, 5:36 PM Software Transfer Agr eement
+https://www .sec.gov/Ar chives/edgar/data/852437/000119312505030601/de x1032.htm 8/16if to Avatech:   Avatech Solutions, Inc.
+   10715 Red Run Blvd., Suite 101,
+   Owings Mills, Maryland 21 117
+   Attn: General Counsel
+   Tel: (410) 753-1587
+   Fax: (410) 753-1591
+ 
+9.5 Governing Law . THIS AGREEMENT  SHALL  BE GOVERNED IN ALL  RESPECTS BY  THE LA WS OF THE UNITED ST ATES OF AMERICA  AND THE ST ATE OF CALIFORNIA
+AS SUCH LA WS APPL Y TO AGREEMENTS ENTERED INT O AND TO BE PERFORMED ENTIREL Y WITHIN CALIFORNIA  BY CALIFORNIA  RESIDENTS.
+ 
+9.6 Forum and Venue . Any judicial action or proceeding arising hereunder or relating hereto shall be brought in, and the Parties hereby consent to the exclusive, personal jurisdiction of, the
+Superior Court of the State California, County of Marin, or in the United States District Court for the Northern District of California in San Francisco, California.
+ 
+9.7 Injunctive Relief . It is understood and agreed that, notwithstanding any other provision of this Agreement either Party’ s breach of confidentiality obligations or provisions relating to
+proprietary rights will cause irreparable damage for which recovery of money damages would be inadequate, and that the other Party will therefore be entitled to seek timely , injunctive relief to
+protect such Party’ s rights under this Agreement in addition to any and all remedies available at law .
+ 
+9.8 Waiver . No failure on the part of a Party to exercise any power , right, privilege, or remedy under this Agreement, and no delay on the part of any Party in exercising any power , right,
+privilege, or remedy under this Agreement, will operate as a waiver of such power , right, privilege, or remedy; and no single or partial exercise of any such power , right, privilege, or remedy will
+preclude any other or further exercise thereof or of any other power , right, privilege, or remedy .
+ (a) No Party shall be deemed to have waived any claim arising from this Agreement, or any power , right, privilege or remedy under this Agreement, unless the waiver of such claim,
+power , right, privilege or remedy is expressly set forth in a written instrument duly executed and delivered on behalf of such Party; and any such waiver will not be applicable or have any ef fect
+except in the specific instance in which it is given.
+ 
+9.9 Assignment . Autodesk may assign all of its assets and other rights acquired hereunder in their entirety and in whole, and in part, provided the successor agrees in writing to be bound by
+all of the obligations set forth in this Agreement in the same manner as Autodesk. Avatech shall have no right to assign or transfer this Agreement, or any of its rights hereunder , without the prior
+permission of Autodesk, which may be granted or withheld at Autodesk’ s sole discretion. Any assignment in violation of this Section 9.9 is null and void.
+ 
+9.10 Severability . If, for any reason, a court of competent jurisdiction finds any provision of this Agreement, or portion thereof, to be invalid or unenforceable, such provision of the
+Agreement will be enforced to the maximum extent permissible so as to ef fect the intent of the Parties, and the remainder of this Agreement will continue in full force and ef fect. The Parties agree to
+negotiate in good faith an enforceable substitute provision for any unenforceable provision that most nearly achieves the intent and economic ef fect of the unenforceable provision. Notwithstanding
+the foregoing, if a court of competent jurisdiction determines that any restriction on any license granted herein is invalid or unenforceable, then the license grants to which such restriction relates
+shall terminate auto

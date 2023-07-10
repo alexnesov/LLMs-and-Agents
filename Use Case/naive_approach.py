@@ -8,6 +8,9 @@ import math
 import chardet
 import openai
 from typing import List
+import traceback
+from typing import Callable
+from datetime import datetime
 
 
 def get_open_ai_response(message: str) -> str:
@@ -72,6 +75,7 @@ def split_and_save_text(text: str,
     Returns:
         str: The location where the files are saved.
     """
+
     # Calculate the number of characters per file
     chars_per_file = len(text) // chunks
 
@@ -93,66 +97,33 @@ def split_and_save_text(text: str,
     return save_location
 
 
-class LargeContextHandler:
+def num_tokens_from_string(plain_txt: str, encoding_name: str) -> int:
     """
-    Class provoding the methods to handle a large chunk of text in the case
-    where the context (i.e. the text is too large to be handled at once)
+    Returns the number of tokens in a text string.
 
-    Generic methods to split doc and ask same message to every chunk:
+    Args:
+        plain_txt (str): The input text string.
+        encoding_name (str): The name of the encoding to use for tokenization.
+                             Valid values: 'cl100k_base' (for gpt-4, gpt-3.5-turbo, text-embedding-ada-002).
 
-        1. Get the amount of tokens (y) --> num_tokens_from_string()
-        2. Calculate in how many chunks (x) the raw text needs to be splitted into
-        --> find_number_chunks()
-        3. Take the text as input and split into x chunks --> split_and_save_text()
+    Returns:
+        int: The number of tokens in the text string.
+
+    Raises:
+        ValueError: If an invalid encoding name is provided.
+
+    Source:
+        This function is based on the OpenAI Cookbook's example on how to count tokens with tiktoken.
+        Link: https://github.com/openai/openai-cookbook/blob/main/examples/How_to_count_tokens_with_tiktoken.ipynb
     """
+    encoding = tiktoken.get_encoding(encoding_name)
+    num_tokens = len(encoding.encode(plain_txt))
 
-    def __init__(self, large_txt_path: str, chunks_save_loc: str) -> None:
-        """
-            Args:
-        large_txt_path (str): The path to the large text file.
-        chunks_save_loc (str): The location where the processed chunks will be saved.
-        """
-        self.large_txt_path = large_txt_path
-        self.file_name = os.path.splitext(os.path.basename(large_txt_path))[0]
-        self.big_raw_txt = open_text_file(large_txt_path)
-        self.chunks_save_loc = chunks_save_loc
-        create_folder_if_not_exists(self.chunks_save_loc)
-        self.n_chunks = 0
+    # There is an underestimation that is about x% I noticed between local tokenization and remote
+    # OpenAI
+    real_token_count = round(num_tokens * 1.6)
 
-    def num_tokens_from_string(self, encoding_name="cl100k_base") -> int:
-        """
-        Returns the number of tokens in a text string.
-
-        cl100k_base is for: gpt-4, gpt-3.5-turbo, text-embedding-ada-002
-
-        Source: https://github.com/openai/openai-cookbook/blob/main/examples/How_to_count_tokens_with_tiktoken.ipynb
-        """
-        encoding = tiktoken.get_encoding(encoding_name)
-        num_tokens = len(encoding.encode(self.plain_txt))
-        # There is an underestimation that is about x% I noticed between local tokenization and remote
-        # OpenAI
-        self.n_chunks = round(num_tokens * 1.6)
-
-    def find_number_chunks(self, real_token_count: str, max_token: int) -> None:
-        """
-        Find number of chunks the raw txt file needs to be split into
-        in order to fit to the max token per request allowed (as per OpenAI threshold)
-
-        math.ceil() is a function from the math module in Python that returns the 
-        smallest integer greater than or equal to a given number. It rounds up a floating-point 
-        number to the nearest whole number.
-        """
-        self.n_chunks = math.ceil(real_token_count / max_token)
-
-    def do_iterative_analysis(self):
-
-        self.num_tokens_from_string(self.big_raw_txt)
-        print(f"self.n_chunks: {self.n_chunks}")
-        split_and_save_text(text=self.big_raw_txt,
-                            chunks=self.n_chunks,
-                            file_name=self.file_name,
-                            save_location=self.chunks_save_loc)
-
+    return real_token_count
 
 def get_txt_files(folder_path: str) -> List[str]:
     """
@@ -175,11 +146,61 @@ def get_txt_files(folder_path: str) -> List[str]:
     return txt_files
 
 
-if __name__ == '__main__':
 
+def find_number_chunks(real_token_count: str, max_token: int) -> int:
+    """
+    Find number of text file the initial plain_txt needs to be split into
+    in order to fit to the max otken allowed per request (as per OpenAI threshold)
+
+    math.ceil() is a function from the math module in Python that returns the 
+    smallest integer greater than or equal to a given number. It rounds up a floating-point 
+    number to the nearest whole number.
+    """
+    number_of_parts = math.ceil(real_token_count / max_token)
+
+    return number_of_parts
+
+
+def exception_handler(func: Callable) -> Callable:
+    """
+    Decorator function for exception handling.
+
+    Args:
+        func (Callable): The function to be decorated.
+
+    Returns:
+        Callable: The decorated function.
+
+    """
+    def wrapper(*args, **kwargs):
+        try:
+            return func(*args, **kwargs)
+        except Exception as e:
+            error_message = traceback.format_exc()
+            print(error_message)
+            now = datetime.now().strftime("%Y%m%d_%H%M%S")
+            filename = f"error_message_{now}.txt"
+            with open(filename, "w") as file:
+                file.write(error_message)
+    return wrapper
+
+
+@exception_handler
+def main():
     save_location = "Output"
     large_txt_path = "Texts/Software Transfer Agreement.txt"
-    inst_large_txt = LargeContextHandler(large_txt_path, save_location)
+    plain_txt = open_text_file(large_txt_path)
+    token_count = num_tokens_from_string(plain_txt, 'cl100k_base')
+    n_parts = find_number_chunks(token_count, max_token=3000)
+    file_name = os.path.splitext(os.path.basename(large_txt_path))[0]
+    save_location = split_and_save_text(plain_txt,
+                                        n_parts,
+                                        file_name,
+                                        save_location)
+
+
+if __name__ == '__main__':
+    main()
 
     message = "What kind of legal document is this? Who are the signatories? \
     What is the signature date of this legal document?"

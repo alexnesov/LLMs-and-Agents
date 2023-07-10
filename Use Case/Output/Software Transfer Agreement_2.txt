@@ -1,0 +1,75 @@
+ Product Purchase by Electronic Transfer as set forth in Exhibit D ; and
+ (c) an Assignment of Copyright as set forth in Exhibit E .
+ 
+2.6 No Assumed Liabilities . The Parties agree that Autodesk shall not assume any liabilities associated with the Transferred Software or the Transferred Intellectual Property Rights that
+arose prior to or on the Ef fective Date, regardless of whether any such liabilities are determined or asserted after the Ef fective Date.
+ 
+ARTICLE III
+PAYMENTS
+ 
+3.1 Payment Terms . Autodesk will provide cash consideration to Avatech. Payments shall be made by wire transfer within twenty-four (24) hours of the due date in immediately available
+funds to the account designated by Avatech.
+ 
+3.2 Payment . On the Ef fective Date, Autodesk shall pay to Avatech One Million and Nine Hundred Thousand Dollars ($1,900,000.00) in full and complete consideration for the Transferred
+Intellectual Property Rights and the Transferred Software (the “ Purchase Price ”).
+ 
+3.3 Taxes.
+ (a) Payment of Taxes. Avatech shall be solely responsible for the payment of, and shall pay when due and indemnify Autodesk against, all applicable federal and state taxes, including any
+sales, use, excise or transfer taxes and other taxes associated with payments to Avatech under this Agreement (except for taxes assessed on Autodesk’ s net income). The Parties shall cooperate and
+take all reasonable steps to reduce any transfer taxes associated with the transactions contemplated hereby .
+ 
+(b) Post-Closing Tax Covenants .
+ (i) In the case of any personal property taxes (or other similar taxes) attributable to the Transferred Software, Avatech shall be responsible for tax returns which cover the
+taxable period through and until the Ef fective Date and, subject to the provisions of Section 3.3(b)(ii) Autodesk shall be responsible for tax returns relating to the taxable period from the Ef fective
+Date forward.
+ 
+(ii) To the extent relevant to the Transferred Software, each Party shall (i) provide the other with such assistance as may reasonably be required in connection with the
+preparation of any tax return and the conduct of any audit or other examination by any taxing authority or in connection with judicial or administrative proceedings relating to any liability for taxes;
+and (ii) retain and provide the other with all records or other information that may be relevant to the preparation of any tax returns, or the conduct of any audit or examination, or other proceeding
+relating to taxes. Avatech shall retain all documents, including prior years’  tax returns, supporting work schedules and other records or information with respect to all applicable tax returns and shall
+not destroy or otherwise dispose of any such records for six (6) years after the Ef fective Date without the prior written consent of Autodesk.
+ 
+ARTICLE IV
+NON-COMPETE AND EXCLUSIVITY
+ 
+4.1 Covenant . Commencing on the Ef fective Date and for two (2) years thereafter , Avatech shall not engage in developing on behalf of any other person or entity product functionality that
+competes with any of the features or functions of the Transferred Software. The Parties agree that such covenant is necessary to protect Autodesk’ s Trade Secrets in and to the Transferred Software
+and the value of Autodesk’ s investment in the Transferred Software.
+ 
+4.2 Separate Covenants . The covenants contained in Sections 4.1 will be construed as a series of separate covenants, one for each county , city , state and country of the geographic scope. If,
+in any judicial proceeding, a court refuses to enforce any of such separate covenants (or any part thereof), then such unenforceable covenant (or such part) will be eliminated from this Agreement to
+the extent necessary5/12/23, 5:36 PM Software Transfer Agr eement
+https://www .sec.gov/Ar chives/edgar/data/852437/000119312505030601/de x1032.htm 4/16to permit the remaining separate covenants (or portions thereof) to be enforced. In the event that the provisions of Sections 4.1 are deemed to exceed the time, geographic or scope limitations
+permitted by applicable law , then such provisions will be reformed to the maximum time, geographic or scope limitations, as the case may be, permitted by applicable laws.
+ 
+ARTICLE V
+CONFIDENTIAL  INFORMA TION
+ 
+5.1 Disclosure . For purposes of this Agreement, “ Confidential Information ” means any proprietary information, technical data, trade secrets or know-how , including, but not limited to,
+research, business plans or models, product plans, products, services, computer software and code, developments, inventions, processes, formulas, technology , designs, drawings, engineering,
+hardware configuration information, marketing, finances or other business information disclosed by Autodesk either directly or indirectly in writing, orally or by drawings or inspection of parts or
+equipment or owned by Autodesk even though not delivered by Autodesk. It is understood that all Confidential Information is and shall remain the sole property of Autodesk, and Avatech shall have
+no interest therein. Upon Autodesk’ s request, Avatech shall promptly return to Autodesk all such tangible Confidential Information.
+ 
+5.2 Exclusions . Notwithstanding the provisions of Section 5.1, Confidential Information shall exclude information that Avatech can demonstrate: (i) was independently developed by Avatech
+without any use of Autodesk’ s Confidential Information or by Avatech’ s employees or other agents (or independent contractors hired by Avatech) who have not been exposed to Autodesk’ s
+Confidential Information (provided that this clause does not limit the terms of Article 4); (ii) becomes known to Avatech, without restriction, from a source other than Autodesk (or Autodesk
+Confidential Information) that had a right to disclose it without breach of this Agreement; or (iii) was in the public domain at the time it was disclosed or enters the public domain through no act or
+omission of Avatech.
+ 
+5.3 Transferred Software . Notwithstanding anything in Sections 5.1 and 5.2, the Transferred Software and any other non-public information regarding the Intellectual Property Rights shall
+be deemed Confidential Information of Autodesk.
+ 
+5.4 Confidentiality Obligation . Avatech may use Autodesk Confidential Information solely to fulfill its obligations to Autodesk in connection with this Agreement. Avatech shall treat as
+confidential and not disclose to any third party any of Autodesk’ s Confidential Information and shall not use such Confidential Information for its own benefit. Without limiting the foregoing,
+Avatech shall use at least the same degree of care which it uses to prevent the disclosure of its own confidential information of like importance, but in no event with less than reasonable care, to
+prevent the disclosure of Autodesk’ s Confidential Information. Avatech further agrees to take all reasonable precautions to prevent any unauthorized disclosure or use of any Autodesk Confidential
+Information.
+ 
+5.5 Confidentiality of Agreement . Each Party agrees that the terms and conditions, but not the existence, of this Agreement shall be treated as Autodesk’ s Confidential Information and that
+no reference to the terms and conditions of this Agreement or to activities pertaining thereto may be made in any form of public or commercial advertising without the prior written consent of
+Autodesk; provided , however , that Avatech may disclose the terms and conditions of this Agreement: (i) to its legal counsel; (ii) as required by any court or other governmental body; or (ii) as
+otherwise required by law .
+ 
+5.6 Remedies . Unauthorized use by Avatech of Autodesk’ s Confidential Information will diminish the value of such information. Therefore, if Avatech breaches any of its obligations with
+respect to co

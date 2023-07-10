@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/home/nesov/Programmation/LLM-LangChain/Use Case/naive_approach.py", line 196, in wrapper
+    return func(*args, **kwargs)
+  File "/home/nesov/Programmation/LLM-LangChain/Use Case/naive_approach.py", line 212, in main
+    inst_large_txt.do_chunking()
+  File "/home/nesov/Programmation/LLM-LangChain/Use Case/naive_approach.py", line 154, in do_chunking
+    self.num_tokens_from_string()
+  File "/home/nesov/Programmation/LLM-LangChain/Use Case/naive_approach.py", line 136, in num_tokens_from_string
+    num_tokens = len(encoding.encode(self.plain_txt))
+AttributeError: 'LargeContextHandler' object has no attribute 'plain_txt'
