@@ -13,6 +13,9 @@ from typing import Callable
 from datetime import datetime
 
 
+SAVE_LOCATION = "Output" # Where the chunkified text will be saved
+LARGE_TXT_PTH = "Texts/Software Transfer Agreement.txt" # raw large text path
+
 def get_open_ai_response(message: str) -> str:
     """
     """
@@ -62,7 +65,7 @@ def open_text_file(file_path: str) -> str:
 def split_and_save_text(text: str,
                         chunks: int,
                         file_name: str,
-                        save_location: str) -> str:
+                        save_location: str) -> None:
     """
     Split the given plain text into multiple chunks and save each chunk as a separate file.
 
@@ -94,8 +97,6 @@ def split_and_save_text(text: str,
             with open(file_path, 'w') as file:
                 file.write(chunk)
 
-    return save_location
-
 
 def num_tokens_from_string(plain_txt: str, encoding_name: str) -> int:
     """
@@ -125,6 +126,7 @@ def num_tokens_from_string(plain_txt: str, encoding_name: str) -> int:
 
     return real_token_count
 
+
 def get_txt_files(folder_path: str) -> List[str]:
     """
     Retrieve all .txt files in the specified folder.
@@ -144,7 +146,6 @@ def get_txt_files(folder_path: str) -> List[str]:
 
     txt_files = [file for file in os.listdir(folder_path) if file.endswith(".txt")]
     return txt_files
-
 
 
 def find_number_chunks(real_token_count: str, max_token: int) -> int:
@@ -186,21 +187,20 @@ def exception_handler(func: Callable) -> Callable:
 
 
 @exception_handler
-def main():
-    save_location = "Output"
-    large_txt_path = "Texts/Software Transfer Agreement.txt"
-    plain_txt = open_text_file(large_txt_path)
+def chunkify():
+
+    plain_txt = open_text_file(LARGE_TXT_PTH)
     token_count = num_tokens_from_string(plain_txt, 'cl100k_base')
     n_parts = find_number_chunks(token_count, max_token=3000)
-    file_name = os.path.splitext(os.path.basename(large_txt_path))[0]
-    save_location = split_and_save_text(plain_txt,
-                                        n_parts,
-                                        file_name,
-                                        save_location)
+    file_name = os.path.splitext(os.path.basename(LARGE_TXT_PTH))[0]
+    split_and_save_text(plain_txt,
+                        n_parts,
+                        file_name,
+                        SAVE_LOCATION)
 
 
 if __name__ == '__main__':
-    main()
+    chunkify()
 
     message = "What kind of legal document is this? Who are the signatories? \
     What is the signature date of this legal document?"
