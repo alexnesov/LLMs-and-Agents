@@ -2,30 +2,6 @@ import os
 from typing import List
 import chardet
 
-def read_text_file(file_path: str) -> str:
-    """
-    Read the contents of a text file and return as a string.
-
-    Args:
-        file_path (str): The path to the text file.
-
-    Returns:
-        str: The contents of the text file.
-
-    Raises:
-        ValueError: If the file_path is not a valid file.
-
-    """
-    if not os.path.isfile(file_path):
-        raise ValueError(f"{file_path} is not a valid file.")
-
-    with open(file_path, 'r') as file:
-        contents = file.read()
-
-    return contents
-
-
-
 def create_folder_if_not_exists(path: str) -> None:
     """
     Check if a folder exists at the given path. If the folder doesn't exist, create it.
@@ -39,8 +15,6 @@ def create_folder_if_not_exists(path: str) -> None:
         print(f"Created folder: {path}")
     else:
         print(f"Folder already exists: {path}")
-
-
 
 
 def open_text_file(file_path: str) -> str:

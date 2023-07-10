@@ -156,5 +156,5 @@ if __name__ == '__main__':
     print(files)
 
     for f in files:
-        txt = read_text_file(f)
+        txt = open_text_file(f)
         print(txt)
