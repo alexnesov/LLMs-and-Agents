@@ -1,6 +1,8 @@
 # Embeddings as a pre-processing tool to enhance information extraction accuracy in the context of a legal document analysis
 
 
+
+     
 ## What did we want initially?
 
 We wanted to extract some information from the following legal document: [Software Transfer Agreement](https://github.com/alexnesov/LLMs-and-Agents/blob/main/Use%20Case/Texts/Software%20Transfer%20Agreement.pdf)  
@@ -9,13 +11,30 @@ This document is publically available on the SEC website.
 We encountered some issues with the signature Date extraction. We are going to focus precisely on this issue as it is general enough to be understood across all domains and could arise in every industry. And from a technical point of view, it is not trivial at all.
 Above all, the solution to this problem (using Embeddings and a Vector Database) is a total breakthrough in the way one can approach information extraction.
 
+## The computer does exactly what you tell it to do, not what you want it to do
+
+Some would argue that we are confronted to a limitation of ChatGPT. While this view may be true without further engineering (that goes beyond some "naive" approaches), it becomes false if we pay attention to the way we ask things to the computer.
+
 **Here is the issue:** 
 
 - There was a date on each page in the header. This date is not the signature date; it is the date at which the document was downloaded.
 - Of course, we don't know a priori on which page we'll find the signature date.
-- The document is too large (large *context*) to be ingested as it is by the LLM
-- We started with a *naive* approach to see how the LLM would handle our case
+- The document is too large (large *context*) to be ingested as it is by the LLM, at once
+- We started with a *naive* approach (simply *chunking* the text, i.e *splitting* it) to see how the LLM would handle our case
 - **Issue:** the LLM "thought" that the signature date was the date in the header, for the pages where the signature date was not explicitely stated, as a whole sentence (for example: "*this document was signed on the...*")
+
+**Here is what the LLM sees**
+
+This is what the computer sees @ the raw format:   "*5/12/23, 5:36 PM Software Transfer Agr eement*"
+Actually, the LLMs **statistical arbitrage**, so to speak, is quite good, because it got the right date when several dates were present in the same chunk:
+
+
+
+Indeed, without further context, if we tell to a human to extract the signature date (i.e. implying that there **IS** a signature date) and if this is the only date, there are chances that some would pick this one.
+
+We can't blame the LLM
+
+## Rule N°1: Semantic Integrity is Queen
 
 When dealing with a large text like this one, a common initial reflex might be to chunk it into smaller parts and process it iteratively. However, this approach is inefficient and, more importantly, it breaks the **semantic integrity** of the whole text, which can lead to mistakes (which it did).
 

@@ -10,7 +10,7 @@ import traceback
 from typing import Callable
 from datetime import datetime
 
-from utils.file_mgmt import read_text_file, get_txt_files, open_text_file, create_folder_if_not_exists
+from utils.file_mgmt import get_txt_files, open_text_file
 
 SAVE_LOCATION = "Output" # Where the chunkified text will be saved
 LARGE_TXT_PTH = "Texts/Software Transfer Agreement.txt" # raw large text path
@@ -21,11 +21,13 @@ def get_open_ai_response(message: str) -> str:
     response = openai.Completion.create(
         engine="text-davinci-003",
         prompt=message,
-        temperature=0.8,
+        temperature=0.1,
         max_tokens=700,
     )
 
-    return response
+
+
+    return response['choices'][0]['text']
 
 
 def split_and_save_text(text: str,
@@ -147,14 +149,17 @@ def chunkify():
 
 if __name__ == '__main__':
     # chunkify()
-
-    message = "What kind of legal document is this? Who are the signatories? \
-    What is the signature date of this legal document?"
-
     files = get_txt_files(SAVE_LOCATION)
-
     print(files)
 
     for f in files:
+        print(f"\n\nProcessing the following document: {f}\n")
         txt = open_text_file(f)
-        print(txt)
+        message = f"What kind of Legal Document is this? \
+                    Who are the signatories? \
+                    What is the signature date of this legal document? --- \
+                    Legal Document: {txt} --- \
+                    Response format: 3 bullet points, strictly."
+
+        answer = get_open_ai_response(message=message)
+        print(answer)
