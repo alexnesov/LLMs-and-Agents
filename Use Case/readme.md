@@ -69,3 +69,7 @@ Coming back to our heading problem you see how this will help. Headers will be i
 Image reference: https://www.youtube.com/watch?v=e2g5ya4ZFro&ab_channel=Pinecone (Supercharging Semantic Search with Pinecone and Cohere
 )
 
+
+
+Does FAISS reduce dimension? --> context 
+Compression and noise reduction
