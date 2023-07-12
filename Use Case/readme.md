@@ -1,7 +1,7 @@
-# Embeddings as a pre-processing tool to enhance information extraction accuracy in the context of a legal document analysis
+# Embeddings as a LLM pre-processing tool to enhance answer accuracy, in the context of a legal document  
 
 
-
+   
      
 ## What did we want initially?
 
