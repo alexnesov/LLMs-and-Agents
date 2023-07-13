@@ -8,8 +8,14 @@
 We wanted to extract some information from the following legal document: [Software Transfer Agreement](https://github.com/alexnesov/LLMs-and-Agents/blob/main/Use%20Case/Texts/Software%20Transfer%20Agreement.pdf)  
 This document is publically available on the SEC website.
 
-We encountered some issues with the signature Date extraction. We are going to focus precisely on this issue as it is general enough to be understood across all domains and could arise in every industry. And from a technical point of view, it is not trivial at all.
-Above all, the solution to this problem (using Embeddings and a Vector Database) is a total breakthrough in the way one can approach information extraction.
+We encountered some issues with the signature Date extraction. We are going to focus precisely on this issue as it is general enough to be understood across all domains and could arise for every industry, for many use cases.   
+From technical point of view, it is not trivial at all, as we will show how it tackles the folloing fundmanetal points:
+
+- Proximity
+- Semantic Integrity
+- Reconciliation
+
+Above all, the solution to this problem (using Embeddings and a Vector Database) uses a technique that is breakthrough IMHO in the way one can approach information extraction in the context of LLMs.
 
 ## The computer does exactly what you tell it to do, not what you want it to do
 
@@ -25,10 +31,16 @@ Some would argue that we are confronted to a limitation of ChatGPT. While this v
 
 **Here is what the LLM sees**
 
-This is what the computer sees @ the raw format:   "*5/12/23, 5:36 PM Software Transfer Agr eement*"
+This is what the computer sees @ the raw format:  
+"*5/12/23, 5:36 PM Software Transfer Agr eement*"  
+
+Here is the set of respnses I've got for every chunk:
+
+![signature_date](https://raw.githubusercontent.com/alexnesov/LLMs-and-Agents/main/Use%20Case/Diagrams%20%26%20IMGs/sig_date.png)   
+
 Actually, the LLMs **statistical arbitrage**, so to speak, is quite good, because it got the right date when several dates were present in the same chunk:
 
-
+We can indeed see at the first chunk that "This SOFTW ARE TRANSFER AGREEMENT  (this “ Agreement ”) is entered into as of January 26th, 2005, "
 
 Indeed, without further context, if we tell to a human to extract the signature date (i.e. implying that there **IS** a signature date) and if this is the only date, there are chances that some would pick this one.
 

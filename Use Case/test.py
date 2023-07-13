@@ -11,8 +11,8 @@ from langchain.llms import OpenAI
 
 if __name__ == '__main__':
     # !!! The software transfer agreement document is not private, it is a publicaly available document published by the SEC !!
-    pdf_path = "Misc/Texts/Software Transfer Agreement.pdf"
-    # pdf_path = "Misc/Texts/ReAct.pdf"
+    pdf_path = "Texts/Software Transfer Agreement.pdf"
+    # pdf_path = "Texts/ReAct.pdf"
     loader = PyPDFLoader(file_path=pdf_path)
     documents = loader.load()
     text_splitter = CharacterTextSplitter(
@@ -24,7 +24,7 @@ if __name__ == '__main__':
     vectorstore = FAISS.from_documents(docs, embeddings)
     vectorstore.save_local("faiss_index/faiss_index_react")
 
-    new_vectorstore = FAISS.load_local("faiss_index_react", embeddings)
+    new_vectorstore = FAISS.load_local("faiss_index/faiss_index_react", embeddings)
     qa = RetrievalQA.from_chain_type(
         llm=OpenAI(), chain_type="stuff", retriever=new_vectorstore.as_retriever()
     )
