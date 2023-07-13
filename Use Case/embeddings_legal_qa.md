@@ -1,7 +1,5 @@
 # Embeddings as a LLM pre-processing tool to enhance answer accuracy, in the context of a legal document  
 
-
-   
      
 ## What did we want initially?
 
@@ -17,7 +15,7 @@ From a technical point of view, it is not trivial at all, as we will show how it
 
 Above all, the solution to this problem (using Embeddings and a Vector Database) uses a game changing approach to extract information through LLMs.
 
-## The computer does exactly what you tell it to do, not what you want it to do
+## The LLM does exactly what you tell it to do, not what you want it to do
 
 **Here is the issue:** 
 
