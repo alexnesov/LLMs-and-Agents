@@ -36,7 +36,7 @@ This is what the computer sees @ the raw format:
 
 Without any context, a human also would be puzzled, especially if forced him to provide an answer (*i. e.* a signature date) and that no other date was present (not even an arbitrage can be made). We can't really blame the LLM.
 
-Here is the set of reponses we've got for every chunk:
+Here is the set of reponses we've got for every chunk (we also asked for the legal name and form):
 
 ![signature_date](https://raw.githubusercontent.com/alexnesov/LLMs-and-Agents/main/Use%20Case/Diagrams%20%26%20IMGs/sig_date.png)   
 
