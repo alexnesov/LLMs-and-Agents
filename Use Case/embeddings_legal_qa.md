@@ -22,19 +22,19 @@ Above all, the solution to this problem (using Embeddings and a Vector Database)
 **Here is the issue:** 
 
 - There was a date on each page in the header. This date is not the signature date; it is the date at which the document was downloaded
-- Of course, we don't know a priori on which page we'll find the signature date
+- Of course, we don't know *a priori* on which page we'll find the signature date
 - The document is too large (large *context*) to be ingested as it is by the LLM, at once
 - We started with a *naive* approach (simply *chunking* the text, i.e *splitting* it) to see how the LLM would handle our case
 - **Issue:** the LLM "thought" that the signature date was the date in the header, for the pages where the signature date was not explicitely stated, as a whole sentence (for example: "*this document was signed on the...*")
 
 Some would argue that we are confronted to a limitation of ChatGPT. While this view may be true without further engineering (that goes beyond some "naive" approaches), it becomes false if we pay attention to the way we ask things to the computer.
 
-**Here is what the LLM sees when we give the raw chunks (it corresopnd to the header)**
+**Here is what the LLM sees when we provide the raw chunks as an input (it corresponds to the header)**
 
 This is what the computer sees @ the raw format:  
 "*5/12/23, 5:36 PM Software Transfer Agr eement*" 
 
-Without any context, a human also would be puzzled, especially if forced to provide an answer (*i. e.* a signature date). We can't really blame the LLM.
+Without any context, a human also would be puzzled, especially if forced him to provide an answer (*i. e.* a signature date) and that no other date was present (not even an arbitrage can be made). We can't really blame the LLM.
 
 Here is the set of reponses we've got for every chunk:
 
@@ -90,11 +90,11 @@ Compression and noise reduction
 The fact that AI could at least **assist** the lawyer is unquestionnable, at least to **review** or **reconcile** with what he or she already wrote. 
 Now, the question that remains is:  
 
-**What is the share of the work that will still be alocated to the lawyer?**  
+**What is the work share that will still be alocated to the lawyer?**  
 There are, at least, three answers that we can provide right now:
 1. There is no definitive threshold, it's dynamic, and it will certainly evolve towards more and more automation.
 2. This trend towards more automation will be due to:
-    - More sohpisticated tools (typically, replacing a "naive" chunking approach to vectorized operations as we showed above)
+    - More sophisticated tools (typically, replacing a "naive" chunking approach to vectorized operations as we showed above)
     - Without even mentioning the intermediary layer that we set up ourselves, the LLM itself will be optimized (more training data, more parameters,...)
-    - On an individual level: "**AI aware"**" (i. e. lawyers who are already used to AI-tech tools) will be more careful in the way they write and format documents
+    - On an individual level: "**AI aware"**" (i. e. lawyers who are already used to AI-tech tools) will be more careful in the way they write and format documents, which will lead to a legal superstructure that will be more prone to automation
 3. On a sociologic level: the legal landscape generally will evolve to higher productivity levels, imposing social norms or even standards to avoid hallucinations
