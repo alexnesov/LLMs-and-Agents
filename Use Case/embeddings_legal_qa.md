@@ -81,13 +81,10 @@ Image reference: https://www.youtube.com/watch?v=e2g5ya4ZFro&ab_channel=Pinecone
 
 ### The Embedding, Indexing & Similarity Search parts serve to find the relevant text chunks to send to the LLM, instead of sending whole chunks like we did before
 
-<div style="display: flex; justify-content: center;">
 
 ![context_injection](https://raw.githubusercontent.com/alexnesov/LLMs-and-Agents/main/Use%20Case/Diagrams%20%26%20IMGs/context_injection.jpg)  
 Image reference: https://towardsdatascience.com/all-you-need-to-know-to-build-your-first-llm-app-eb982c78ffac
 
-
-</div>
 
 ## Our personnal take: the future of AI in the context of legal-tech projects
 
