@@ -9,42 +9,39 @@ We wanted to extract some information from the following legal document: [Softwa
 This document is publically available on the SEC website.
 
 We encountered some issues with the signature Date extraction. We are going to focus precisely on this issue as it is general enough to be understood across all domains and could arise for every industry, for many use cases.   
-From technical point of view, it is not trivial at all, as we will show how it tackles the folloing fundmanetal points:
+From a technical point of view, it is not trivial at all, as we will show how it tackles the following fundamental points:
 
 - Proximity
 - Semantic Integrity
 - Reconciliation
 
-Above all, the solution to this problem (using Embeddings and a Vector Database) uses a technique that is breakthrough IMHO in the way one can approach information extraction in the context of LLMs.
+Above all, the solution to this problem (using Embeddings and a Vector Database) uses a game changing approach to extract information through LLMs.
 
 ## The computer does exactly what you tell it to do, not what you want it to do
 
-Some would argue that we are confronted to a limitation of ChatGPT. While this view may be true without further engineering (that goes beyond some "naive" approaches), it becomes false if we pay attention to the way we ask things to the computer.
-
 **Here is the issue:** 
 
-- There was a date on each page in the header. This date is not the signature date; it is the date at which the document was downloaded.
-- Of course, we don't know a priori on which page we'll find the signature date.
+- There was a date on each page in the header. This date is not the signature date; it is the date at which the document was downloaded
+- Of course, we don't know a priori on which page we'll find the signature date
 - The document is too large (large *context*) to be ingested as it is by the LLM, at once
 - We started with a *naive* approach (simply *chunking* the text, i.e *splitting* it) to see how the LLM would handle our case
 - **Issue:** the LLM "thought" that the signature date was the date in the header, for the pages where the signature date was not explicitely stated, as a whole sentence (for example: "*this document was signed on the...*")
 
-**Here is what the LLM sees**
+Some would argue that we are confronted to a limitation of ChatGPT. While this view may be true without further engineering (that goes beyond some "naive" approaches), it becomes false if we pay attention to the way we ask things to the computer.
+
+**Here is what the LLM sees when we give the raw chunks (it corresopnd to the header)**
 
 This is what the computer sees @ the raw format:  
-"*5/12/23, 5:36 PM Software Transfer Agr eement*"  
+"*5/12/23, 5:36 PM Software Transfer Agr eement*" 
 
-Here is the set of respnses I've got for every chunk:
+Without any context, a human also would be puzzled, especially if forced to provide an answer (*i. e.* a signature date). We can't really blame the LLM.
+
+Here is the set of reponses we've got for every chunk:
 
 ![signature_date](https://raw.githubusercontent.com/alexnesov/LLMs-and-Agents/main/Use%20Case/Diagrams%20%26%20IMGs/sig_date.png)   
 
-Actually, the LLMs **statistical arbitrage**, so to speak, is quite good, because it got the right date when several dates were present in the same chunk:
+Actually, the LLMs **arbitrage**, so to speak, is not bad at all, because it got the right date when several dates were present in the same chunk, and of course, it couldn't provide the right date when there was no actual signature date present in the chunk.
 
-We can indeed see at the first chunk that "This SOFTW ARE TRANSFER AGREEMENT  (this “ Agreement ”) is entered into as of January 26th, 2005, "
-
-Indeed, without further context, if we tell to a human to extract the signature date (i.e. implying that there **IS** a signature date) and if this is the only date, there are chances that some would pick this one.
-
-We can't blame the LLM
 
 ## Rule N°1: Semantic Integrity is Queen
 
@@ -85,3 +82,19 @@ Image reference: https://www.youtube.com/watch?v=e2g5ya4ZFro&ab_channel=Pinecone
 
 Does FAISS reduce dimension? --> context 
 Compression and noise reduction
+
+
+## Our personnal take: the future of AI in the context of legal-tech projects
+
+
+The fact that AI could at least **assist** the lawyer is unquestionnable, at least to **review** or **reconcile** with what he or she already wrote. 
+Now, the question that remains is:  
+
+**What is the share of the work that will still be alocated to the lawyer?**  
+There are, at least, three answers that we can provide right now:
+1. There is no definitive threshold, it's dynamic, and it will certainly evolve towards more and more automation.
+2. This trend towards more automation will be due to:
+    - More sohpisticated tools (typically, replacing a "naive" chunking approach to vectorized operations as we showed above)
+    - Without even mentioning the intermediary layer that we set up ourselves, the LLM itself will be optimized (more training data, more parameters,...)
+    - On an individual level: "**AI aware"**" (i. e. lawyers who are already used to AI-tech tools) will be more careful in the way they write and format documents
+3. On a sociologic level: the legal landscape generally will evolve to higher productivity levels, imposing social norms or even standards to avoid hallucinations
