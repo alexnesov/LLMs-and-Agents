@@ -49,7 +49,7 @@ Here is the header, present on every page:
 ![Date](https://raw.githubusercontent.com/alexnesov/LLMs-and-Agents/main/Use%20Case/Diagrams%20%26%20IMGs/date.png)
 
 
-Here is a simplified diagram illustring the "naive" approach:
+Here is a simplified diagram illustring the "naive" approach:  
 ![naive_approach](https://raw.githubusercontent.com/alexnesov/LLMs-and-Agents/main/Use%20Case/Diagrams%20%26%20IMGs/chunk.png)    
 
 
@@ -98,3 +98,13 @@ There are, at least, three answers that we can provide right now:
     - Without even mentioning the intermediary layer that we set up ourselves, the LLM itself will be optimized (more training data, more parameters,...)
     - On an individual level: "**AI aware"**" (i. e. lawyers who are already used to AI-tech tools) will be more careful in the way they write and format documents, which will lead to a legal superstructure that will be more prone to automation
 3. On a sociologic level: the legal landscape generally will evolve to higher productivity levels, imposing social norms or even standards to avoid hallucinations
+
+
+
+We don't modify the LLM, we make sure before hand to send the right data. Similarity
+We compare text snippets
+
+
+1. Document loader
+2. Indexing
+3. Vector store
