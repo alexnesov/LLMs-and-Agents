@@ -1,4 +1,4 @@
-# Embeddings as a LLM pre-processing tool to enhance answer accuracy, in the context of a legal document  
+# Embeddings as a pre-processing tool to an LLM process (legal document analysis)
 
      
 ## What did we want initially?
@@ -100,7 +100,7 @@ There are, at least, three answers that we can provide right now:
 3. On a sociologic level: the legal landscape generally will evolve to higher productivity levels, imposing social norms or even standards to avoid hallucinations
 
 
-
+## How do Embeddings work? (Primer)
 We don't modify the LLM, we make sure before hand to send the right data. Similarity
 We compare text snippets
 
@@ -108,3 +108,9 @@ We compare text snippets
 1. Document loader
 2. Indexing
 3. Vector store
+
+
+## When NOT to use FAISS: specific companies linked to a national context
+
+From our experience, FAISS works better for general clustering when the proximity between a spcific enterprise for example to a certain country doesn't matter.
+Very concreteyle speaking, from our Use Case, ChatGPT is going to perform very well at linking SES Satelittes (a leading Satelitte company in Luxemourg) with Luxembourg for example. For ChatGPT, this "makes sense", while it doesn't for FAISS, because FAISS operates in a more abstract level, so to speak. This is very probably due to the superior amount of training data used during GPT's training sessions.
