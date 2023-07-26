@@ -1,6 +1,6 @@
 # Embeddings as a pre-processing tool to an LLM process (legal document analysis)
 
-     
+     (UNDER CONSTRUCTION!) :construction:
 ## What did we want initially?
 
 We wanted to extract some information from the following legal document: [Software Transfer Agreement](https://github.com/alexnesov/LLMs-and-Agents/blob/main/Use%20Case/Texts/Software%20Transfer%20Agreement.pdf)  
