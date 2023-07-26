@@ -1,6 +1,6 @@
-# Embeddings as a pre-processing tool to an LLM process (legal document analysis)
+# Embeddings as a pre-processing tool to an LLM process (legal document analysis) (article under construction!) :construction:
 
-(UNDER CONSTRUCTION!) :construction:
+
 
 ## What did we want initially?
 
