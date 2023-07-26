@@ -17,13 +17,11 @@ It is simply the transformation of text into numeric values.
 
 Words in their raw form are unstructured, from a computational point of view (they **are** structured from a humand standpoint, but not for a computer).
 
-
 ```
 pip install gensim
 ```
 
-
-
+Here's a Python example to create word embeddings with two dimensions:
 ```
 from gensim.models import Word2Vec
 
