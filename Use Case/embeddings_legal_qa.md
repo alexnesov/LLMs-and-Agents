@@ -77,12 +77,15 @@ Image reference: https://www.youtube.com/watch?v=e2g5ya4ZFro&ab_channel=Pinecone
 )
 
 
-### The Embedding, Indexing & Similarity Search parts serve to find the relevant text chunks to send to the LLM, instead of sending whole chunks like we did before
+## How does the Embedding process work in the context of an LLM app?
+
+### Embedding, Indexing & Similarity Search parts serve to find the relevant text chunks to send to the LLM, instead of sending whole chunks like we did before
 
 
 ![context_injection](https://raw.githubusercontent.com/alexnesov/LLMs-and-Agents/main/Use%20Case/Diagrams%20%26%20IMGs/context_injection.jpg)  
 Image reference: https://towardsdatascience.com/all-you-need-to-know-to-build-your-first-llm-app-eb982c78ffac
 
+Check the reference of the image above to get a detailled view of how an LLM app works.
 
 ## Our personnal take: the future of AI in the context of legal-tech projects
 
@@ -99,15 +102,6 @@ There are, at least, three answers that we can provide right now:
     - On an individual level: "**AI aware"**" (i. e. lawyers who are already used to AI-tech tools) will be more careful in the way they write and format documents, which will lead to a legal superstructure that will be more prone to automation
 3. On a sociologic level: the legal landscape generally will evolve to higher productivity levels, imposing social norms or even standards to avoid hallucinations
 
-
-## How do Embeddings work? (Primer)
-We don't modify the LLM, we make sure before hand to send the right data. Similarity
-We compare text snippets
-
-
-1. Document loader
-2. Indexing
-3. Vector store
 
 
 ## When NOT to use FAISS: specific companies linked to a national context
