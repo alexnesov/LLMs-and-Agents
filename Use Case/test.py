@@ -12,7 +12,6 @@ from langchain.llms import OpenAI
 if __name__ == '__main__':
     # !!! The software transfer agreement document is not private, it is a publicaly available document published by the SEC !!
     pdf_path = "Texts/Software Transfer Agreement.pdf"
-    # pdf_path = "Texts/ReAct.pdf"
     loader = PyPDFLoader(file_path=pdf_path)
     documents = loader.load()
     text_splitter = CharacterTextSplitter(
