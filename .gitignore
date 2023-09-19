@@ -1,6 +1,6 @@
 faiss_index/
 error_message*
-
+icebreaker_app/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
