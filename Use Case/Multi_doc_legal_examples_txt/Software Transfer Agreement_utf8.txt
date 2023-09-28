@@ -1,0 +1,491 @@
+5/12/23, 5:36 PM Software Transfer Agr eement
+https://www .sec.gov/Ar chives/edgar/data/852437/000119312505030601/de x1032.htm 1/16EX-10.32 8 dex1032.htm SOFTW ARE TRANSFER AGREEMENT
+EXHIBIT  10.32
+ SOFTW ARE TRANSFER AGREEMENT
+ 
+This SOFTW ARE TRANSFER AGREEMENT  (this “ Agreement ”) is entered into as of January 26th, 2005, (the “ Effective Date ”) by and between AVATECH SOLUTIONS, INC., a Delaware
+corporation with of fices at 10715 Red Run Blvd., Suite 101, Owings Mills, Maryland 21 117 USA  (“Avatech ”), and Autodesk, Inc., a Delaware corporation with its principal of fice at 1 11 McInnis
+Parkway , San Rafael, California 94903 (“ Autodesk ”) (A vatech and Autodesk each, a “ Party ;” together , the “ Parties ”).
+ 
+RECIT ALS
+ 
+WHEREAS, Avatech desires to transfer to Autodesk, and Autodesk desires to receive from Avatech, ownership of certain quality assurance software and cycle time reduction product for the design
+automation industry , including all patents, copyrights, trade secrets and other intellectual property rights therein and thereto;
+ 
+NOW , THEREFORE, in consideration of the foregoing and of the mutual promises contained in this Agreement, the Parties hereby agree as follows:
+ AGREEMENT
+ 
+ARTICLE I
+DEFINITIONS AND CONSTRUCTION
+ 
+1.1. Capitalized Terms . The following capitalized terms shall have the meanings set forth below:
+ (a) “Confidential Information ” has the meaning set forth in Section 5.1.
+ 
+(b) Derivative Work” has the meaning ascribed to it under the United States Copyright Law , Title 17 U.S.C. Sec. 101 et. seq. , as the same may be amended from time to time.
+ 
+(c) “Intellectual Property Rights ” means any or all of the following which are owned by Avatech and all rights in, arising out of, or associated with throughout the world: (i) all
+United States and foreign patents and applications therefor , including provisional applications, and all reissues, divisions, renewals, extensions, continuations and continuations-in-part thereof
+(“Patents ”); (ii) all rights (other than Patents) in inventions (whether patentable or not), invention disclosures, improvements, trade secrets, proprietary information, know-how , technology and
+technical data (“ Trade Secrets ”); and (iii) all copyrights, copyright registrations and applications therefor and all other rights corresponding thereto throughout the world (“ Copyrights ”).
+ 
+(d) “Prior Grantee ” means those third parties who have been granted a license to, or otherwise have a right, to the Transferred Software.
+ 
+(e) “Software ” means any and all computer software, documentation and code, including assemblers, applets, compilers, source code, source code listings, object code, data
+(including image and sound data), design tools and user interfaces, in any form or format, however fixed.
+ 
+(f) “Third Party Software ” means any Software that is a component of, or necessary to compile, the Transferred Software and that is either not owned by Avatech to which Avatech is
+restricted from transferring ownership to Autodesk.
+ 
+(g) “Transferred Intellectual Property Rights ” means all Intellectual Property Rights in and to the Transferred Software.
+ 
+(h) “Transferred Software ” means the Software known as the software and related materials as more particularly described in Exhibit A.
+ 
+1.2 Construction . For purposes of this Agreement, whenever the context requires:
+ (a) the singular number will include the plural, and vice versa; the masculine gender will include the feminine and neuter genders; the feminine gender will include the masculine and
+neuter genders; and the neuter gender will include the masculine and feminine genders;5/12/23, 5:36 PM Software Transfer Agr eement
+https://www .sec.gov/Ar chives/edgar/data/852437/000119312505030601/de x1032.htm 2/16(b) any rule of construction to the ef fect that ambiguities are to be resolved against the drafting Party will not be applied in the construction or interpretation of this Agreement;
+ 
+(c) the words “include” and “including” and variations thereof, will not be deemed to be terms of limitation, but rather will be deemed to be followed by the words “without
+limitation;”
+ 
+(d) except as otherwise indicated, all references in this Agreement to “Sections” and “Exhibits” are intended to refer to Sections of this Agreement and Exhibits to this Agreement;
+and
+ 
+(e) the headings in this Agreement are for convenience of reference only , will not be deemed to be a part of this Agreement, and will not be referred to in connection with the
+construction or interpretation of this Agreement.
+ 
+ARTICLE II
+SOFTW ARE TRANSFER AND DELIVER Y
+ 
+2.1 Assignment . Avatech hereby irrevocably grants, conveys and assigns to Autodesk, by execution hereof, all of its worldwide right title and interest in and to the Transferred Software and
+Transferred Intellectual Property Rights, to be held and enjoyed by Autodesk and its successors and assigns. Avatech further irrevocably grants, conveys and assigns to Autodesk, by execution
+hereof, all of its worldwide right, title and interest in and to any and all causes of action and rights of recovery for past infringement or misappropriation of the Transferred Intellectual Property
+Rights, to be held and enjoyed by Autodesk and its successors and assigns. Autodesk hereby accepts the foregoing grants, conveyances and assignments.
+ 
+2.2 Further Assurances . On and after the date of this Agreement, the Avatech will, without char ge and promptly upon request by Autodesk, as may be requested by Autodesk in order to ef fect
+and perfect the grants, conveyances and assignments contained herein or to enable Autodesk to obtain the full benefits of this Agreement and the transactions contemplated hereby , (i) deliver to
+Autodesk records, data or other documents relating to the Transferred Intellectual Property Rights that are in Avatech’ s possession, (ii) execute and deliver assignments, licenses, consents,
+documents or further instruments of transfer , including without limitation the short form assignment in Exhibit E , and (iii) take other reasonable actions, render other assistance and execute other
+documents. Avatech will also assist Autodesk in filing and prosecuting United States and foreign patent applications claiming the Transferred Intellectual Property Rights at the Autodesk’ s expense.
+ 
+2.3 Exclusive Ownership . Without limiting the foregoing, Autodesk will have the exclusive right to commercialize, prepare and sell products based upon, license, sublicense, prepare
+derivative works from, and otherwise use and exploit the Transferred Software and Transferred Intellectual Property Rights. Avatech hereby waives any and all moral rights, including any right to
+identification of authorship or limitation on subsequent modification, that Avatech (or its employees, agents or consultants) has or may have in any Transferred Software or Transferred Intellectual
+Property Rights.
+ 
+2.4 Power of Attorney . Avatech hereby irrevocably designates and appoints Autodesk and its duly authorized of ficers and agents as its agents and attorneys-in-fact, to act in its behalf and
+instead of Avatech, to execute and file any such application, and to do all other lawfully permitted acts to further the prosecution and issuance of Intellectual Property Rights provided for herein with
+the same legal force and ef fect as if executed by Avatech. This power of attorney shall be deemed coupled with an interest and shall be irrevocable.
+ 
+2.5 Delivery . On the Ef fective Date, Avatech shall deliver to Autodesk:
+ (a) the Transferred Software via FTP  (File Transfer Protocol) download, as more particularly described in Exhibit A;5/12/23, 5:36 PM Software Transfer Agr eement
+https://www .sec.gov/Ar chives/edgar/data/852437/000119312505030601/de x1032.htm 3/16(b) an af firmation for Software Product Purchase by Electronic Transfer as set forth in Exhibit D ; and
+ (c) an Assignment of Copyright as set forth in Exhibit E .
+ 
+2.6 No Assumed Liabilities . The Parties agree that Autodesk shall not assume any liabilities associated with the Transferred Software or the Transferred Intellectual Property Rights that
+arose prior to or on the Ef fective Date, regardless of whether any such liabilities are determined or asserted after the Ef fective Date.
+ 
+ARTICLE III
+PAYMENTS
+ 
+3.1 Payment Terms . Autodesk will provide cash consideration to Avatech. Payments shall be made by wire transfer within twenty-four (24) hours of the due date in immediately available
+funds to the account designated by Avatech.
+ 
+3.2 Payment . On the Ef fective Date, Autodesk shall pay to Avatech One Million and Nine Hundred Thousand Dollars ($1,900,000.00) in full and complete consideration for the Transferred
+Intellectual Property Rights and the Transferred Software (the “ Purchase Price ”).
+ 
+3.3 Taxes.
+ (a) Payment of Taxes. Avatech shall be solely responsible for the payment of, and shall pay when due and indemnify Autodesk against, all applicable federal and state taxes, including any
+sales, use, excise or transfer taxes and other taxes associated with payments to Avatech under this Agreement (except for taxes assessed on Autodesk’ s net income). The Parties shall cooperate and
+take all reasonable steps to reduce any transfer taxes associated with the transactions contemplated hereby .
+ 
+(b) Post-Closing Tax Covenants .
+ (i) In the case of any personal property taxes (or other similar taxes) attributable to the Transferred Software, Avatech shall be responsible for tax returns which cover the
+taxable period through and until the Ef fective Date and, subject to the provisions of Section 3.3(b)(ii) Autodesk shall be responsible for tax returns relating to the taxable period from the Ef fective
+Date forward.
+ 
+(ii) To the extent relevant to the Transferred Software, each Party shall (i) provide the other with such assistance as may reasonably be required in connection with the
+preparation of any tax return and the conduct of any audit or other examination by any taxing authority or in connection with judicial or administrative proceedings relating to any liability for taxes;
+and (ii) retain and provide the other with all records or other information that may be relevant to the preparation of any tax returns, or the conduct of any audit or examination, or other proceeding
+relating to taxes. Avatech shall retain all documents, including prior years’  tax returns, supporting work schedules and other records or information with respect to all applicable tax returns and shall
+not destroy or otherwise dispose of any such records for six (6) years after the Ef fective Date without the prior written consent of Autodesk.
+ 
+ARTICLE IV
+NON-COMPETE AND EXCLUSIVITY
+ 
+4.1 Covenant . Commencing on the Ef fective Date and for two (2) years thereafter , Avatech shall not engage in developing on behalf of any other person or entity product functionality that
+competes with any of the features or functions of the Transferred Software. The Parties agree that such covenant is necessary to protect Autodesk’ s Trade Secrets in and to the Transferred Software
+and the value of Autodesk’ s investment in the Transferred Software.
+ 
+4.2 Separate Covenants . The covenants contained in Sections 4.1 will be construed as a series of separate covenants, one for each county , city , state and country of the geographic scope. If,
+in any judicial proceeding, a court refuses to enforce any of such separate covenants (or any part thereof), then such unenforceable covenant (or such part) will be eliminated from this Agreement to
+the extent necessary5/12/23, 5:36 PM Software Transfer Agr eement
+https://www .sec.gov/Ar chives/edgar/data/852437/000119312505030601/de x1032.htm 4/16to permit the remaining separate covenants (or portions thereof) to be enforced. In the event that the provisions of Sections 4.1 are deemed to exceed the time, geographic or scope limitations
+permitted by applicable law , then such provisions will be reformed to the maximum time, geographic or scope limitations, as the case may be, permitted by applicable laws.
+ 
+ARTICLE V
+CONFIDENTIAL  INFORMA TION
+ 
+5.1 Disclosure . For purposes of this Agreement, “ Confidential Information ” means any proprietary information, technical data, trade secrets or know-how , including, but not limited to,
+research, business plans or models, product plans, products, services, computer software and code, developments, inventions, processes, formulas, technology , designs, drawings, engineering,
+hardware configuration information, marketing, finances or other business information disclosed by Autodesk either directly or indirectly in writing, orally or by drawings or inspection of parts or
+equipment or owned by Autodesk even though not delivered by Autodesk. It is understood that all Confidential Information is and shall remain the sole property of Autodesk, and Avatech shall have
+no interest therein. Upon Autodesk’ s request, Avatech shall promptly return to Autodesk all such tangible Confidential Information.
+ 
+5.2 Exclusions . Notwithstanding the provisions of Section 5.1, Confidential Information shall exclude information that Avatech can demonstrate: (i) was independently developed by Avatech
+without any use of Autodesk’ s Confidential Information or by Avatech’ s employees or other agents (or independent contractors hired by Avatech) who have not been exposed to Autodesk’ s
+Confidential Information (provided that this clause does not limit the terms of Article 4); (ii) becomes known to Avatech, without restriction, from a source other than Autodesk (or Autodesk
+Confidential Information) that had a right to disclose it without breach of this Agreement; or (iii) was in the public domain at the time it was disclosed or enters the public domain through no act or
+omission of Avatech.
+ 
+5.3 Transferred Software . Notwithstanding anything in Sections 5.1 and 5.2, the Transferred Software and any other non-public information regarding the Intellectual Property Rights shall
+be deemed Confidential Information of Autodesk.
+ 
+5.4 Confidentiality Obligation . Avatech may use Autodesk Confidential Information solely to fulfill its obligations to Autodesk in connection with this Agreement. Avatech shall treat as
+confidential and not disclose to any third party any of Autodesk’ s Confidential Information and shall not use such Confidential Information for its own benefit. Without limiting the foregoing,
+Avatech shall use at least the same degree of care which it uses to prevent the disclosure of its own confidential information of like importance, but in no event with less than reasonable care, to
+prevent the disclosure of Autodesk’ s Confidential Information. Avatech further agrees to take all reasonable precautions to prevent any unauthorized disclosure or use of any Autodesk Confidential
+Information.
+ 
+5.5 Confidentiality of Agreement . Each Party agrees that the terms and conditions, but not the existence, of this Agreement shall be treated as Autodesk’ s Confidential Information and that
+no reference to the terms and conditions of this Agreement or to activities pertaining thereto may be made in any form of public or commercial advertising without the prior written consent of
+Autodesk; provided , however , that Avatech may disclose the terms and conditions of this Agreement: (i) to its legal counsel; (ii) as required by any court or other governmental body; or (ii) as
+otherwise required by law .
+ 
+5.6 Remedies . Unauthorized use by Avatech of Autodesk’ s Confidential Information will diminish the value of such information. Therefore, if Avatech breaches any of its obligations with
+respect to confidentiality or use of Confidential Information hereunder , Avatech agrees and acknowledges that Autodesk shall be entitled to equitable relief to protect its interest therein, including
+injunctive relief, as well as money damages.
+ 
+5.7 Required Disclosure . In the event that Avatech believes that it will be compelled, or is compelled, by a court, administrative agency , or other governmental body to disclose Autodesk’ s
+Confidential Information, it shall: (i) provide prompt notice thereof to Autodesk so that Autodesk make take steps to oppose such disclosure, and (ii) cooperate with Autodesk’ s reasonable attempts
+to oppose such disclosure, and (iii) use its reasonable ef forts to obtain a protective order or otherwise prevent unrestricted or public disclosure of such information.5/12/23, 5:36 PM Software Transfer Agr eement
+https://www .sec.gov/Ar chives/edgar/data/852437/000119312505030601/de x1032.htm 5/165.8 Public Announcements . Avatech shall not make any public announcement relating to this Agreement except upon Autodesk’ s prior written consent, which may be granted or withheld in
+Autodesk’ s sole discretion.
+ 
+ARTICLE VI
+REPRESENT ATIONS AND WARRANTIES
+ 
+6.1 General . Each Party represents and warrants to the other that: (i) such Party has the full right, power and authority to enter into this Agreement and fully perform its obligations
+hereunder; and (ii) the making of this Agreement and such Party’ s performance of all its obligations hereunder is not prohibited by or in conflict with any agreement between such Party and any
+third party .
+ 
+6.2 Warranty . Avatech represents and warrants to Autodesk that:
+ (a) the Transferred Software and Transferred Intellectual Property Rights will not infringe any third party’ s Intellectual Property Rights;
+ 
+(b) Exhibit C  lists all registered Intellectual Property Rights with respect to the Transferred Software. All such registered Intellectual Property Rights are currently in compliance with
+formal legal requirements (including payment of filing, examination and maintenance fees and proofs of use), are valid and enforceable, and are not subject to any unpaid maintenance fees or taxes
+or actions falling due within ninety (90) days after the Ef fective Date. There are no proceedings or actions known to Avatech before any court, tribunal (including the United States Patent and
+Trademark Of fice or equivalent authority anywhere in the world) related to any such registered Intellectual Property Rights. Avatech has not claimed any status in the application for or registration
+of any Registered Intellectual Property Rights that would not be applicable to Autodesk;
+ 
+(c) Exhibit F  contains a complete, accurate list and description of all Third Party Software and other technology of third parties included in the Transferred Software;
+ 
+(d) Exhibit G  contains a complete, accurate list and description of all Prior Grantees;
+ 
+(e) Avatech has not transferred ownership of, granted any exclusive license of or right to or authorized the retention of any exclusive rights to or joint ownership of, any Transferred
+Software;
+ 
+(f) Avatech has not permitted Avatech’ s rights in the Transferred Intellectual Property Rights to lapse or enter the public domain; and no open source or public library software,
+including any version of any software licensed pursuant to any GNU public license, was used in the development or modification of any Software that is or was Transferred Software or is
+incorporated into any Transferred Software;
+ 
+(g) in each case in which Avatech has acquired any Transferred Software from any person, Avatech has obtained a valid and enforceable assignment suf ficient to irrevocably transfer
+all rights in and to all such Transferred Software and Transferred Intellectual Property Rights (including the right to seek past and future damages with respect thereto) to Avatech;
+ 
+(h) Avatech has no knowledge of any facts or circumstances that would render any Transferred Intellectual Property Rights invalid or unenforceable;
+ 
+(i) there is no action, suit, claim, proceeding or investigation of any nature pending or , to Avatech’ s knowledge, threatened against Avatech relating to the Transferred Software or
+Transferred Intellectual Property Rights, nor is there any reasonable basis therefore.
+ 
+(j) there is no investigation or other proceeding pending or , to Avatech’ s knowledge, threatened relating to the Transferred Software by or before any governmental entity , nor is there
+any reasonable basis therefor; and there are no judgments and no orders or decrees issued by any governmental entity , and there are no other orders or decrees, citations, fines or penalties heretofore
+assessed against Avatech, af fecting the Transferred Software under any foreign, federal, state or local law .5/12/23, 5:36 PM Software Transfer Agr eement
+https://www .sec.gov/Ar chives/edgar/data/852437/000119312505030601/de x1032.htm 6/16(k) the Transferred Software is free and clear of any liens or encumbrances;
+ 
+(l) Avatech is the exclusive owner of the Transferred Software and the Transferred Intellectual Property Rights;
+ 
+(m) no Transferred Software or Transferred Intellectual Property Rights is subject to any proceeding or outstanding decree, order , judgment or settlement agreement or stipulation
+that restricts in any manner the use, transfer or licensing thereof by Avatech or may af fect the validity , use or enforceability of such Transferred Software or Transferred Intellectual Property Rights
+by Autodesk;
+ 
+(n) following the Ef fective Date, Autodesk will be permitted to exploit the Transferred Software to the same extent Avatech would have been able to had the transactions
+contemplated by this Agreement not occurred and without the payment of any additional amounts or consideration;
+ 
+(o) to Avatech’ s knowledge, no person is infringing or misappropriating any Transferred Intellectual Property Rights; and
+ 
+(p) Avatech has taken all steps that are required to protect Avatech’ s rights in Confidential Information and Trade Secrets within the Transferred Software. Without limiting the
+foregoing, Avatech has and enforces a policy requiring each employee and consultant of Avatech to execute a proprietary rights assignment and confidentiality agreement consistent with industry
+standards and all current and former employees and consultants of Avatech who have created or modified any of the Transferred Software have executed such an agreement assigning all of such
+employees’  and consultants’  rights in and to the Transferred Software to Avatech.
+ 
+6.3 Warranty Disclaimer . EXCEPT  FOR THE WARRANTIES PROVIDED FOR HEREIN, THE P ARTIES HEREBY  DISCLAIM ANY  AND ALL  WARRANTIES, WHETHER EXPRESS
+OR IMPLIED, INCLUDING WITHOUT  LIMIT ATION ALL  IMPLIED WARRANTIES OF MERCHANT ABILITY  AND FITNESS FOR A PARTICULAR PURPOSE.
+ 
+ARTICLE VII
+INDEMNIFICA TION
+ 
+7.1 Indemnification by Avatech . Avatech shall indemnify and hold harmless Autodesk and its of ficers, directors, and employees from and against any and all damages, losses, costs, liabilities
+and expenses (including reasonable attorneys’  fees) arising out of or related to a breach or alleged breach which, if true, would constitute a breach by Avatech of any Avatech representation or
+warranty set forth in ARTICLE VI.
+ 
+7.2 Conditions to Indemnification . Avatech’ s obligation to indemnify Autodesk under Section 7.1 shall be subject to Autodesk: (i) providing Avatech with written notice of any third party
+claim; and (ii) providing Avatech with proper and full information and reasonable assistance to defend and/or settle any such claim or action.
+ 
+7.3 Infringement . If Autodesk receives notice of a claim that any of the Transferred Software or Work Product as delivered by Avatech to Autodesk hereunder infringes any third party’ s
+Intellectual Property Rights, or if Autodesk reasonably believes that such a claim may occur , Autodesk shall notify Avatech. In the event of the foregoing or if Avatech reasonably believes that such
+a claim may occur , Avatech shall, with Autodesk’ s written consent, either: (i) procure for Autodesk the right to continue to exercise the rights to such Transferred Software granted to Autodesk under
+this Agreement; or (ii) provide Autodesk with alternative non-infringing technology with substantially equivalent functionality .
+ 
+7.4 Limitations . Avatech shall have no liability hereunder , with respect to any claim or damages to the extent arising from or relating to: (i) any modification made to the Transferred
+Software by a party other than Avatech, if such infringement would not have occurred but for such modification; or5/12/23, 5:36 PM Software Transfer Agr eement
+https://www .sec.gov/Ar chives/edgar/data/852437/000119312505030601/de x1032.htm 7/16(ii) any combination of the Transferred Software by Avatech hereunder with Software, hardware or other technology or materials supplied by anyone other than Avatech, if such infringement or
+misappropriation would not have occurred but for such combination.
+ 
+ARTICLE VIII
+LIMIT ATIONS OF LIABILITY
+ 
+IN NO EVENT  WILL  EITHER P ARTY BE LIABLE FOR ANY  SPECIAL, INCIDENT AL, EXEMPLAR Y, OR CONSEQUENTIAL  DAMAGES, WHETHER BASED ON BREACH OF
+CONTRACT , TORT (INCLUDING NEGLIGENCE), OR OTHER WISE, REGARDLESS OF WHETHER SUCH DAMAGE WAS FORESEEABLE AND WHETHER OR NOT  SUCH HAS
+BEEN ADVISED OF THE POSSIBILITY  OF SUCH DAMAGE; PROVIDED HOWEVER THA T THE FOREGOING LIMIT ATIONS WILL  NOT  APPL Y TO AVATECH’S OBLIGA TIONS
+UNDER ARTICLES V AND VII. LIABILITY  FOR OBLIGA TIONS SET  FOR TH IN ARTICLE VII SHALL  BE LIMITED TO THE PURCHASE PRICE.
+ 
+ARTICLE IX
+GENERAL
+ 
+9.1 Expenses . Except as expressly provided herein, each Party shall be solely responsible for its own costs and expenses (including its attorneys’  fees and accountants’  fees): (i) incurred in
+negotiating and consummating the transactions contemplated hereby; and (ii) for maintaining and perfecting the rights granted to such Party hereunder , including costs for recordation of documents,
+registration of rights and payment of government fees incurred after the Ef fective Date.
+ 
+9.2 No Agency . Each Party shall in all matters relating to this Agreement act as an independent contractor . Neither Party shall have authority , nor shall either Party represent that it has any
+authority , to assume or create any obligation, express or implied, on behalf of the other , or to represent the other Party as agent or employee or in any other capacity . Neither execution nor
+performance of this Agreement shall be construed to have established any agency , joint venture, or partnership.
+ 
+9.3 Attorneys’  Fees . If any legal action or other legal proceeding relating to this Agreement or the enforcement of any provision of this Agreement is brought against any Party to this
+Agreement, the prevailing Party shall be entitled to recover reasonable attorneys’  fees, costs, and disbursements (in addition to any other relief to which the prevailing Party may be entitled).
+ 
+9.4 Notices . Any notice or other communication required or permitted to be delivered to any Party under this Agreement must be in writing and shall be deemed properly delivered, given
+and received when delivered (by hand, by registered mail, by courier or express delivery service or by facsimile) to the address or facsimile telephone number set forth beneath the name of such
+Party below (or to such other address or facsimile telephone number as such Party may have specified in a written notice given to the other Party):
+ 
+if to Autodesk:   Autodesk, Inc.
+   111 McInnis Parkway
+   San Rafael, California 94903
+   Attention: General Counsel
+   Telephone: (415) 507-5000
+   Facsimile No.: (405) 507-6126
+with a copy to:   Autodesk, Inc.
+   7995 SW  Mohawk
+   Tualatin, Oregon 97062
+   Attn: Vice President, MSD
+   Telephone: (503) 692-4424
+   Facsimile No.: (503) 692-16305/12/23, 5:36 PM Software Transfer Agr eement
+https://www .sec.gov/Ar chives/edgar/data/852437/000119312505030601/de x1032.htm 8/16if to Avatech:   Avatech Solutions, Inc.
+   10715 Red Run Blvd., Suite 101,
+   Owings Mills, Maryland 21 117
+   Attn: General Counsel
+   Tel: (410) 753-1587
+   Fax: (410) 753-1591
+ 
+9.5 Governing Law . THIS AGREEMENT  SHALL  BE GOVERNED IN ALL  RESPECTS BY  THE LA WS OF THE UNITED ST ATES OF AMERICA  AND THE ST ATE OF CALIFORNIA
+AS SUCH LA WS APPL Y TO AGREEMENTS ENTERED INT O AND TO BE PERFORMED ENTIREL Y WITHIN CALIFORNIA  BY CALIFORNIA  RESIDENTS.
+ 
+9.6 Forum and Venue . Any judicial action or proceeding arising hereunder or relating hereto shall be brought in, and the Parties hereby consent to the exclusive, personal jurisdiction of, the
+Superior Court of the State California, County of Marin, or in the United States District Court for the Northern District of California in San Francisco, California.
+ 
+9.7 Injunctive Relief . It is understood and agreed that, notwithstanding any other provision of this Agreement either Party’ s breach of confidentiality obligations or provisions relating to
+proprietary rights will cause irreparable damage for which recovery of money damages would be inadequate, and that the other Party will therefore be entitled to seek timely , injunctive relief to
+protect such Party’ s rights under this Agreement in addition to any and all remedies available at law .
+ 
+9.8 Waiver . No failure on the part of a Party to exercise any power , right, privilege, or remedy under this Agreement, and no delay on the part of any Party in exercising any power , right,
+privilege, or remedy under this Agreement, will operate as a waiver of such power , right, privilege, or remedy; and no single or partial exercise of any such power , right, privilege, or remedy will
+preclude any other or further exercise thereof or of any other power , right, privilege, or remedy .
+ (a) No Party shall be deemed to have waived any claim arising from this Agreement, or any power , right, privilege or remedy under this Agreement, unless the waiver of such claim,
+power , right, privilege or remedy is expressly set forth in a written instrument duly executed and delivered on behalf of such Party; and any such waiver will not be applicable or have any ef fect
+except in the specific instance in which it is given.
+ 
+9.9 Assignment . Autodesk may assign all of its assets and other rights acquired hereunder in their entirety and in whole, and in part, provided the successor agrees in writing to be bound by
+all of the obligations set forth in this Agreement in the same manner as Autodesk. Avatech shall have no right to assign or transfer this Agreement, or any of its rights hereunder , without the prior
+permission of Autodesk, which may be granted or withheld at Autodesk’ s sole discretion. Any assignment in violation of this Section 9.9 is null and void.
+ 
+9.10 Severability . If, for any reason, a court of competent jurisdiction finds any provision of this Agreement, or portion thereof, to be invalid or unenforceable, such provision of the
+Agreement will be enforced to the maximum extent permissible so as to ef fect the intent of the Parties, and the remainder of this Agreement will continue in full force and ef fect. The Parties agree to
+negotiate in good faith an enforceable substitute provision for any unenforceable provision that most nearly achieves the intent and economic ef fect of the unenforceable provision. Notwithstanding
+the foregoing, if a court of competent jurisdiction determines that any restriction on any license granted herein is invalid or unenforceable, then the license grants to which such restriction relates
+shall terminate automatically .
+ 
+9.11 Entire Agreement . This Agreement (including the Exhibits hereto) sets forth the entire understanding of the Parties hereto relating to the subject matter hereof and supersedes all prior
+agreements and understandings between the Parties hereto relating to the subject matter hereof.
+ 
+9.12 Amendments . This Agreement may not be amended, modified, altered or supplemented other than by means of a written instrument duly executed and delivered on behalf of Avatech
+and Autodesk.
+ 
+9.13 Counterparts . This Agreement may be executed in counterparts, which, when taken together , shall constitute one agreement.
+ 
+ 5/12/23, 5:36 PM Software Transfer Agr eement
+https://www .sec.gov/Ar chives/edgar/data/852437/000119312505030601/de x1032.htm 9/16IN WITNESS WHEREOF , the Parties, by their duly authorized representatives, have executed this Agreement as of the Ef fective Date.
+ 
+Avatech, Inc.  AUT ODESK, INC.
+By:
+  /s/ Christopher D. Olander
+ By:
+ /s/ Carl Bass
+Name:   Christopher D. Olander  Name:  Carl Bass
+Title:   Executive Vice President  Title:  COO
+ 
+ 5/12/23, 5:36 PM Software Transfer Agr eement
+https://www .sec.gov/Ar chives/edgar/data/852437/000119312505030601/de x1032.htm 10/16EXHIBIT  A
+ 
+Transferred Software and Delivery
+ 
+TRANSFERRED SOFTW ARE:  is known as Proof Positive software, a set of applications for checking conformance of CAD models against defined standards. This includes:
+ 
+  •  All Software code, documentation and specifications related to the Proof Positive for Inventor application
+ 
+  •  All Software code, documentation and specifications related to the Proof Positive Reports application
+ 
+  •  All Software code, documentation and specifications related to the Proof Positive for Solidworks prototype ef fort.
+ 
+  •  All rights and title to the above works
+ 
+  •  All marketing materials related to the foregoing
+ 
+The components of Proof Positive for Inventor are further described as:
+ 
+  •  Proof Positive Configurator , an application for configuring the CAD standards that will be enforced.
+ 
+  •  Proof Positive, an application for Inventor users to test their models against the CAD Standards
+ 
+  •  Proof Positive Results Browser , an application for users to review the results of testing.
+ 
+  •  Proof Positive Batch, an application for an administrator to check conformance of a lar ge number of models in a batch environment.
+ 
+  •  Proof Positive Reports, an application for a manager to review charts and reports of the aggregate results in a dashboard-style format.
+ 
+The Software is more fully described in Exhibit B (Specifications).
+ 
+DELIVER Y: On the Ef fective Date, Avatech shall make the Transferred Software and any related documentation or other Transferred Software available at an agreed upon secure Web site for FTP
+(File Transfer Protocol) download to Autodesk’ s Portland, Oregon, facility .
+ 
+ 5/12/23, 5:36 PM Software Transfer Agr eement
+https://www .sec.gov/Ar chives/edgar/data/852437/000119312505030601/de x1032.htm 11/16EXHIBIT  B
+ 
+Specifications
+ 
+SPECIFICA TIONS: Specifications for the Transferred Software are set forth in Attachment 1 to Exhibit B
+ 
+ 5/12/23, 5:36 PM Software Transfer Agr eement
+https://www .sec.gov/Ar chives/edgar/data/852437/000119312505030601/de x1032.htm 12/16EXHIBIT  C
+ 
+Registered Intellectual Property Rights
+ 
+PATENTS: NA
+ 
+COPYRIGHTS: NA
+ 
+OTHER:
+ Trademarks:
+ a. Design plus words, letters, and/or numbers – PT O Registration No. 2894716
+ 
+b. Typed Drawing – PT O Registration No. 2839975
+ 
+ 5/12/23, 5:36 PM Software Transfer Agr eement
+https://www .sec.gov/Ar chives/edgar/data/852437/000119312505030601/de x1032.htm 13/16EXHIBIT  D
+ 
+Affirmation for Software Product Purchase by Electronic Transfer
+ 
+The undersigned hereby af firm the following to be true:
+ On the 26th day of February 2005, the following software products were delivered to Autodesk, Inc. (“Autodesk”) at Portland, Oregon, via electronic transfer:
+ a. Proof Positive Software as more fully described in the Software Transfer of Agreement between
+ 
+Autodesk and Avatech dated 26 January 2005.
+ 
+Electr onic Transmission via Remote Telecommunication delivery .
+ The software products were transferred to Autodesk by telecommunications or via Internet download to Autodesk’ s computer .
+ 
+Autodesk warrants that, at no time during or after installation of this software product(s) did any employee of Autodesk come into possession of any of the computer media utilized during
+installation.
+ 
+Autodesk warrants that Autodesk has neither retained nor has any access to “back-up” or “just in case” copies of the installed software.
+ 
+No escrow or other holding of a master copy of the purchased software exists.
+ 
+Affirmed this 26th day of January , 2005.
+ 
+ 
+  
+  
+(Autodesk employee)     (Avatech employee or authorized representative)
+ 
+All parties: Please r etain a copy of this document for  your  files.
+ 
+ 5/12/23, 5:36 PM Software Transfer Agr eement
+https://www .sec.gov/Ar chives/edgar/data/852437/000119312505030601/de x1032.htm 14/16EXHIBIT  E
+ 
+Assignment of Copyright
+ 
+For good and valuable consideration, the receipt of which is hereby acknowledged, AVATECH SOLUTIONS, INC., a Delaware corporation with of fices at 10715 Red Run Blvd., Suite 101,
+Owings Mills, Maryland 21 117 USA  (hereafter referred to as “A vatech”), hereby grants and assigns to Autodesk, Inc., located at 1 11 Mc Innis Parkway , San Rafael, California 94903 (hereinafter
+referred to as “Autodesk”) all right, title and interest whatsoever , throughout the world, in and under the copyright on the work entitled Proof Positive to have and to hold the same, unto Autodesk,
+its successors and assigns, for the full duration of all such rights, and any renewals and extensions thereof.
+ 
+This assignment is made pursuant to, and is subject to all of the terms of the Software Transfer Agreement, between Avatech and Autodesk, dated as of 26 January , 2005.
+ 
+IN WITNESS THEREOF , I have hereunto set hand and seal this
+ 
+_______________
+          Date
+ 
+ 
+ 
+(Signature)
+ 
+ 
+NAME (T ype or Print)
+ 
+ 
+TITLE
+ 
+ 
+NAME OF ASSIGNOR
+ 
+State of
+S.S.
+County of
+ 
+Before me this      day of              , 2005 personally appeared:                       to me known to be the person who is described in and who executed the foregoing assignment instrument and
+acknowledged to me that he/she executed the same his/her own free will for the purpose therein expressed.
+ 
+ 
+        
+Notary Public or Consular         
+Officer of the United States Of America
+  Expires
+  
+ 
+ 5/12/23, 5:36 PM Software Transfer Agr eement
+https://www .sec.gov/Ar chives/edgar/data/852437/000119312505030601/de x1032.htm 15/16EXHIBIT  F
+ 
+Third Party Software
+ 
+THIRD P ARTY SOFTW ARE:
+ RogueW ave Sour cePr o vers 4.0 (DLL  type)  Use: provided cross-platform C++ STL  and utilities (has been removed in upcoming vers of PP
+ Macr ovision FLEXlm vers 7.2 (DLL  type)  Use: Provides software license management
+ Softwar e FX Chart FX vers 98 (OCX type)  Use: Charting control for PP  reports
+ IBM XML4J vers 1.1.9  (JAR type)  Use: Open source XML  parser
+ Micr ostar  Aelfr ed vers 1.2 (JAR type)  Use: Public domain XML  parser
+ Apache Xer ces vers 1.4.4 (JAR type)  Use DOM-style XML  parser (provided as a
+sample; not directly used by the code)
+ Apache Xalan vers 1.4.4 (JAR type)  XSL T transform (provided as a sample; not directly used by the code)
+ Wintertr ee Softwar e - Sentry Spelling Checker  Engine - DLL
+Provides spell checking capabilities to the “Drawing Spell Check” standard (disabled).
+ fCoder  Softwar e - 2GIF  - EXE
+Conversion of thumbnail images to GIF for display .
+ 
+ 5/12/23, 5:36 PM Software Transfer Agr eement
+https://www .sec.gov/Ar chives/edgar/data/852437/000119312505030601/de x1032.htm 16/16EXHIBIT  G
+ 
+Prior Grantees
+ 
+PRIOR GRANTEES:  None.
+ 
+ 
