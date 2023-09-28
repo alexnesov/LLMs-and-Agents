@@ -27,7 +27,11 @@ if __name__ == '__main__':
     qa = RetrievalQA.from_chain_type(
         llm=OpenAI(), chain_type="stuff", retriever=new_vectorstore.as_retriever()
     )
+    """
     res = qa.run("What is Autodesk's legal form? Response should be strictly this format: legal form")
     print(res)
     res = qa.run("When was the contract signed? Response should be strictly this (python format): dd-mm-yyyy")
+    print(res)
+    """
+    res = qa.run("Synthetise document")
     print(res)
